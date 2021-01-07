@@ -5,7 +5,7 @@
 * 19
 * Nordestino
 * Autodidata. Busco me aperfeiçoar atráves de livros, bootcamps, transmitindo conhecimento (ajudando em comunidades)
-* Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vistas sobre um projeto
+* Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vistas.
 
 ### Interesses e Atuações
 
