@@ -1,4 +1,20 @@
-### Hello eu sou o Gleisson :blush:
+## Gleisson Neves (Front-end | Back-end PHP | Flutter Dev | UI/UX)
 
-:man_technologist: Sou desenvolvedor PHP e Front-end de vez em quando me arrisco de design UX e gráfico,
-:heart: Amo tecnologia e os desafios que ela me proporciona! 
+### Sobre mim
+
+* 19
+* Nordestino
+* Autodidata. Busco me aperfeiçoar atráves de livros, bootcamps, transmitindo conhecimento (ajudando em comunidades)
+* Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vistas sobre um projeto
+
+### Interesses e Atuações
+
+* 🖥️ Atualmente estou buscando uma oportunidade para trabalhar com PHP, front-end.
+* 🌱 Atuo em projetos para melhorar a produtividade e acelerar o processo de desenvolvimento de sistemas Web.
+* 👻 Conte comigo pra projetos Open source e que envolva muitos desafios e agrege as comunidades.
+* 💬 Aberta a ajudar a quem precisar, no que eu puder ajudar!
+* 😄 Sou criativo, disposto, proativo, além disso muito curioso (rs).
+* 🤡 curiosidades: Gosto de ler escutando música, amo café, bolo, filmes, anime, série. Tenho algumas plantas e dois gatinhos, Amo estudadar, novas aventuras...   
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gdk46&hide=html,hack&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=gdk46&show_icons=true&theme=tokyonight)
