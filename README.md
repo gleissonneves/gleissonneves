@@ -17,23 +17,12 @@
 * 🤡 curiosidades: Gosto de ler escutando música, amo café, bolo, filmes, anime, série. Tenho algumas plantas e dois gatinhos, Amo estudadar, novas aventuras...
 * 👨🏻‍💻 conheça mais do meu trabalho! ![portfólio](https://gdk46.github.io/gdk46/)
 
+### Stack
+CSS | HTML | Vanilia | PHP | Python | Dart | SQL
+
 ### Estatísticas 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gdk46&hide=html,hack&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=gdk46&show_icons=true&theme=tokyonight)
-
-### Stack
-* CSS
-  * Bootstrap
-  * Materialize
-  * UIkit
-  * Bulma
-* HTML
-* Vanilia
-  * Jquery
-* PHP
-* Python
-* Dart
-  * Flutter
 
 ### Onde me encontrar
 <p>
