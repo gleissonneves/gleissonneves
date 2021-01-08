@@ -5,14 +5,14 @@
 * 19
 * Nordestino
 * Autodidata. Busco me aperfeiçoar atráves de livros, bootcamps, transmitindo conhecimento (ajudando em comunidades)
-* Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vistas.
+* Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vista.
 
 ### Interesses e Atuações
 
 * 🖥️ Atualmente estou buscando uma oportunidade para trabalhar com PHP, front-end.
 * 🌱 Atuo em projetos para melhorar a produtividade e acelerar o processo de desenvolvimento de sistemas Web.
-* 👻 Conte comigo pra projetos Open source e que envolva muitos desafios e agrege as comunidades.
-* 💬 Aberta a ajudar a quem precisar, no que eu puder ajudar!
+* 👻 Conte comigo pra projetos Open source e que envolva muitos desafios e agrege às comunidades.
+* 💬 Aberto a ajudar a quem precisar, no que eu puder ajudar!
 * 😄 Sou criativo, disposto, proativo, além disso muito curioso (rs).
 * 🤡 curiosidades: Gosto de ler escutando música, amo café, bolo, filmes, anime, série. Tenho algumas plantas e dois gatinhos, Amo estudadar, novas aventuras...   
 
