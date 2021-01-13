@@ -15,7 +15,6 @@
 * 💬 Aberto a ajudar a quem precisar, no que eu puder ajudar!
 * 😄 Sou criativo, disposto, proativo, além disso muito curioso (rs).
 * 🤡 curiosidades: Gosto de ler escutando música, amo café, bolo, filmes, anime, série. Tenho algumas plantas e dois gatinhos, Amo estudadar, novas aventuras...
-* 👨🏻‍💻 conheça mais do meu trabalho! ![portfólio](https://gdk46.github.io/gdk46/)
 
 ### Stack
 CSS | HTML | Vanilia | PHP | Python | Dart | SQL
