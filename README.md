@@ -9,7 +9,7 @@
 
 ### Interesses e Atuações
 
-* 🖥️ Atualmente estou buscando uma oportunidade para trabalhar com PHP, front-end.
+* 🖥️ Atualmente estou buscando uma oportunidade para trabalhar com PHP ou front-end.
 * 🌱 Atuo em projetos para melhorar a produtividade e acelerar o processo de desenvolvimento de sistemas Web.
 * 👻 Conte comigo pra projetos Open source e que envolva muitos desafios e agrege às comunidades.
 * 💬 Aberto a ajudar a quem precisar, no que eu puder ajudar!
