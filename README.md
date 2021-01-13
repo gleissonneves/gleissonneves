@@ -1,4 +1,4 @@
-## Gleisson Neves (Front-end | Back-end PHP | Flutter Dev | UI/UX)
+## Gleisson Neves (Laravel Developer | Back-end PHP)
 
 ### Sobre mim
 
