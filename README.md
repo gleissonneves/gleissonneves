@@ -1,5 +1,7 @@
 ## Gleisson Neves (Laravel Developer | Back-end PHP)
 
+![Metrics](https://metrics.lecoq.io/gdk46?template=classic&isocalendar=1&isocalendar.duration=half-year&config.timezone=America%2FSao_Paulo&config.animated=true)
+
 ### Sobre mim
 
 * 19
@@ -19,7 +21,7 @@
 ### Stack
 CSS | HTML | Vanilia | PHP | Python | Dart | SQL
 
-### Estatísticas 
+### Estatísticas
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gdk46&hide=html,hack&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=gdk46&show_icons=true&theme=tokyonight)
 
