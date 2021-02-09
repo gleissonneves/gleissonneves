@@ -16,7 +16,7 @@
 * 👻 Conte comigo para projetos Open source e que envolva muitos desafios e agrege às comunidades.
 * 💬 Aberto a ajudar a quem precisar, no que eu puder ajudar!
 * 😄 Sou criativo, disposto, proativo, além disso muito curioso (rs).
-* 🤡 curiosidades: Gosto de ler, escutar música, amo café, bolo, filmes, anime, série etc. Tenho algumas plantas e dois gatinhos, Amo estudadar, novas aventuras...
+* 🤡 curiosidades: Gosto de ler, escutar música, amo café, bolo, filmes, anime, série etc. Tenho algumas plantas e dois gatinhos, Amo estudar, novas aventuras...
 
 ### Stack
 CSS | HTML | Vanilia | PHP | Python | Dart | SQL
