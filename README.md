@@ -1,4 +1,4 @@
-## Gleisson Neves (Laravel Developer | Back-end PHP)
+## Gleisson Neves (Laravel Developer | Back-end PHP| Front-end)
 
 ![Metrics](https://metrics.lecoq.io/gdk46?template=classic&isocalendar=1&isocalendar.duration=half-year&config.timezone=America%2FSao_Paulo&config.animated=true)
 
