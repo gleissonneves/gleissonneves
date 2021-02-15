@@ -1,0 +1,420 @@
+/*-----------------------------------------------------------------------
+/*  Description : Creative Resume Template
+/*  Version     : 1.0
+/*-----------------------------------------------------------------------
+
+1. GLOBAL STYLES (USED IN VARIOUS SECTION OF THE WEBSITE)
+  1.0 ROOT
+  1.1 RESET PAGE
+  1.2 GENERAL STYLES
+  1.3 GENERICS
+  1.3.0 GENERICS POSITION | FLOAT
+  1.3.1 GENERICS TEXT
+  1.3.2 GENERICS RADIUS
+  1.3.3 GENERICS MARGIN
+  1.4 FLEX BOX
+
+2. COMPONENTS (ELEMENTS USED IN MANY SECTION)
+  2.0. DIVIDER
+
+3. BANNER
+
+4. SETTINGS CONTAINER
+
+5. CONTAINER STYLES & COMPONENTS
+  5.0. CONTAINER - APRESENTATION
+  5.1. CONTAINER - PROFILE
+  5.2. CONTAINER - SKILL
+  5.3. CONTAINER - ACCOLADES
+  5.4. CONTAINER - CONTACT
+  5.5. CONTAINER - SKILL
+  5.6. CONTAINER - CONTACT
+
+6. FOOTER
+
+-----------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------*/
+/*  1. GLOBAL STYLES
+/*  1.O ROOT
+/*  1.1 RESET PAGE
+/*---------------------------------------------------------------------*/
+:root {
+  --white: #ffffff;
+  --black: #16191c;
+
+  --layout: #16191c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #4b4b4b;
+}
+
+label,
+legend {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+body {
+  background-color: var(--layout);
+}
+
+::before,
+::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*  1.3 GENERICS
+/*    1.3.0 GENERICS POSITION | FLOAT
+/*---------------------------------------------------------------------*/
+.pos-relative {
+  position: relative;
+}
+.pos-absolute {
+  position: absolute;
+}
+
+.float-r {
+  float: right;
+}
+
+
+
+/*---------------------------------------------------------------------*/
+/*    1.3.1 GENERICS TEXT
+/*---------------------------------------------------------------------*/
+.bold {
+  font-weight: 400;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.text-grey {
+  color: #a1a1a1;
+}
+
+span.title {
+  top: auto;
+  bottom: 0;
+  margin-bottom: -33px;
+}
+
+/*---------------------------------------------------------------------*/
+/*    1.3.2 GENERICS RADIUS
+/*---------------------------------------------------------------------*/
+.ellipse {
+  border-radius: 50%;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*    1.3.3 GENERICS MARGIN
+/*---------------------------------------------------------------------*/
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+/*---------------------------------------------------------------------*/
+/*  1.4 FLEX BOX
+/*---------------------------------------------------------------------*/
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.wrap {
+  flex-direction: wrap;
+}
+
+.jus-content-center {
+  justify-content: center;
+}
+
+.alg-item-center {
+  align-items: center;
+}
+
+/*---------------------------------------------------------------------*/
+/*  2. COMPONENTS
+/*    2.0. DIVIDER
+/*---------------------------------------------------------------------*/
+span.divider {
+  display: block;
+  margin: 35px 0px;
+  width: 150px;
+  height: 2px;
+  background-image: linear-gradient(
+    to bottom,
+    #00b5f8,
+    #1fb9f9,
+    #2fbdfa,
+    #3cc1fa,
+    #47c5fb
+  );
+}
+
+.icon-content {
+  width: 45px;
+  height: 45px;
+  background-color: var(--white);
+  margin: 0 8px;
+}
+
+/*---------------------------------------------------------------------*/
+/*  3. BANNER
+/*---------------------------------------------------------------------*/
+#banner {
+  width: 100%;
+  height: 217px;
+  background-image: url("../img/wllp1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 0px 50px 50px;
+  padding: 1.5rem 1rem;
+}
+
+/*---------------------------------------------------------------------*/
+/*  4. SETTINGS CONTAINER
+/*---------------------------------------------------------------------*/
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 720px) {
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.container-wrapper {
+  padding: 80px 0px;
+}
+
+.container .container-title {
+  color: var(--white);
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.container .container-subtitle {
+  color: #a1a1a1;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/*---------------------------------------------------------------------*/
+/*  5. CONTAINER
+/*  5.0 CONTAINER APRESENTATION
+/*---------------------------------------------------------------------*/
+.container#apresentation {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container#apresentation .container-wrapper {
+  padding: 40px 0px;
+}
+
+.container#apresentation div#photo {
+  position: absolute;
+  top: -100px;
+  width: 250px;
+  height: 250px;
+  background-color: var(--white);
+}
+
+.container#apresentation div#photo + div {
+  margin-top: 180px;
+  margin-bottom: 70px;
+}
+
+.container#apresentation div#photo + div #name {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: var(--white);
+}
+
+
+/*---------------------------------------------------------------------*/
+/*   5.1. CONTAINER - PROFILE
+/*---------------------------------------------------------------------*/
+.container#profile {
+  background-color: var(--layout);
+}
+
+.container#profile .profile-text {
+  text-align: center;
+}
+
+.container#profile #description {
+  width: 100%;
+}
+
+.container#profile .profile-text .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 720px) { 
+  .container#profile #description {
+    width: 600px;
+  }
+
+  .container#profile .profile-text {
+    text-align: justify;
+  }
+
+  .container#profile .profile-text .divider {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/*---------------------------------------------------------------------*/
+/*  5.2.
+/*---------------------------------------------------------------------*/
+
+@media (min-width: 720px) {
+  .container#skills .card-skill {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+.container#skills {
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.container#skills .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container#skills .card-skill {
+  width: 267px;
+  height: 267px;
+  margin-top: 10px;
+  background-color: #252527;
+  border-radius: 30px;
+}
+
+@media (min-width: 962px) {
+  .container#skills .card-skill:nth-last-child(2n + 1) {
+    margin-top: 150px;
+  }
+}
+
+.container#skills .flexibility {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*  5.3.
+/*---------------------------------------------------------------------*/
+.container#metodh .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*---------------------------------------------------------------------*/
+/*  5.4.
+/*---------------------------------------------------------------------*/
+.container#accolades .bookmark {
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.container#accolades .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*---------------------------------------------------------------------*/
+/*  5.5.
+/*---------------------------------------------------------------------*/
+.container#contact .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container#contact .divider.divider-sm {
+  width: 50px;
+}
+
+.container#contact .icon {
+  width: 130px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/*---------------------------------------------------------------------*/
+/*  10. SETTINGS CONTAINER
+/*---------------------------------------------------------------------*/
+footer {
+  background-color: #0e0f11;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  width: 100%;
+  border-radius: 50px 50px 0px 0px;
+  text-align: center;
+  color: var(--white);
+  font-size: 15px;
+}
