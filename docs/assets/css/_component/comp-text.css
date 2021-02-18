@@ -1,0 +1,17 @@
+.bold {
+    font-weight: 400;
+  }
+  
+  .txt-center {
+    text-align: center;
+  }
+  
+  .text-grey {
+    color: var(--primary);
+  }
+  
+  span.title {
+    top: auto;
+    bottom: 0;
+    margin-bottom: -33px;
+  }
