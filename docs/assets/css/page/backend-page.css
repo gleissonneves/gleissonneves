@@ -24,7 +24,22 @@
   background-position: center;
   background-size: cover;
   border-radius: 0px 0px 50px 50px;
-  padding: 1.5rem 1rem;
+  padding: 0rem 2rem;
+}
+
+.header .container-wrapper {
+  padding: 1rem 0;
+}
+
+@media (min-width: 400px) {
+  .header {
+    padding: 0rem 2rem;
+  }
+}
+
+.header ul > li {
+  display: inline-block;
+  font-size: 2rem;
 }
 
 /*---------------------------------------------------------------------*/
@@ -87,6 +102,10 @@
 }
 
 @media (min-width: 720px) {
+  .container#presentation .container-wrapper {
+    width: 45%;
+  }
+  
   .container#presentation #description {
     width: 600px;
   }
@@ -161,11 +180,11 @@
 }
 
 @media (min-width: 620px) {
-    .container#project .card-project {
-      margin-right: 5px;
-      margin-left: 5px;
-      margin-top: 10px;
-    }
+  .container#project .card-project {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
 }
 
 .container#project .flexibility {

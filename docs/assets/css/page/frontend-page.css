@@ -17,171 +17,189 @@
 /*  1. HEADER
 /*---------------------------------------------------------------------*/
 .header {
-    width: 100%;
-    height: 70px;
-    background-color: var(--secundary);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 0px 0px 50px 50px;
-    padding: 1.5rem 1rem;
+  width: 100%;
+  height: 70px;
+  background-color: var(--secundary);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 0px 50px 50px;
+  padding: 0rem 2rem;
+}
+
+.header .container-wrapper {
+  padding: 1rem 0;
+}
+
+@media (min-width: 400px) {
+  .header {
+    padding: 0rem 2rem;
   }
-  
+}
+
+.header ul > li {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+/*---------------------------------------------------------------------*/
+/*  2.2. CONTAINER - navigation
   /*---------------------------------------------------------------------*/
-  /*  2.2. CONTAINER - navigation
+.container#navigation {
+  padding: 2rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.container#navigation .container-wrapper {
+  padding: 1rem 0;
+}
+
+.container#navigation a {
+  color: var(--white);
+}
+
+.container#navigation .divider {
+  width: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*---------------------------------------------------------------------*/
+/*   2.1. CONTAINER - PROFILE
   /*---------------------------------------------------------------------*/
-  .container#navigation {
-    padding: 2rem 1rem;
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: var(--white);
-  }
-  
-  .container#navigation .container-wrapper {
-    padding: 1rem 0;
-  }
-  
-  .container#navigation a {
-    color: var(--white);
-  }
-  
-  .container#navigation .divider {
-    width: 80px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  /*---------------------------------------------------------------------*/
-  /*   2.1. CONTAINER - PROFILE
-  /*---------------------------------------------------------------------*/
-  .container#presentation {
-    background-color: var(--dark);
-  }
-  
-  .container#presentation .container-wrapper {
-    padding: 1rem 0;
-  }
-  
+.container#presentation {
+  background-color: var(--dark);
+}
+
+.container#presentation .container-wrapper {
+  padding: 1rem 0;
+}
+
+.container#presentation .container-title {
+  font-weight: 200;
+  font-size: 4rem;
+}
+
+@media (min-width: 400px) {
   .container#presentation .container-title {
-    font-weight: 200;
-    font-size: 4rem;
+    font-size: 5rem;
   }
-  
-  @media (min-width: 400px) {
-    .container#presentation .container-title {
-      font-size: 5rem;
-    }
+}
+
+.container#presentation .presentation-text {
+  text-align: center;
+}
+
+.container#presentation #description {
+  width: 100%;
+}
+
+.container#presentation .presentation-text .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 720px) {
+  .container#presentation .container-wrapper {
+    width: 45%;
   }
-  
-  .container#presentation .presentation-text {
-    text-align: center;
-  }
-  
+
   .container#presentation #description {
-    width: 100%;
+    width: 600px;
   }
-  
+
+  .container#presentation .presentation-text {
+    text-align: justify;
+  }
+
   .container#presentation .presentation-text .divider {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
+    margin-left: 0;
   }
-  
-  @media (min-width: 720px) {
-    .container#presentation #description {
-      width: 600px;
-    }
-  
-    .container#presentation .presentation-text {
-      text-align: justify;
-    }
-  
-    .container#presentation .presentation-text .divider {
-      margin-right: 0;
-      margin-left: 0;
-    }
-  }
-  
+}
+
+/*---------------------------------------------------------------------*/
+/*  2.. CONTAINER - methodology 
   /*---------------------------------------------------------------------*/
-  /*  2.. CONTAINER - methodology 
+
+.container#methodology {
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.container#methodology .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*---------------------------------------------------------------------*/
+/*  2.3. CONTAINER - METODH
   /*---------------------------------------------------------------------*/
-  
-  .container#methodology {
-    padding: 2rem 3rem;
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: var(--white);
-  }
-  
-  .container#methodology .divider {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
+.container#metodh .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*---------------------------------------------------------------------*/
+/*  2.4. CONTAINER - ACOOLADES
   /*---------------------------------------------------------------------*/
-  /*  2.3. CONTAINER - METODH
+.container#accolades .bookmark {
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.container#accolades .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*---------------------------------------------------------------------*/
+/*  2.5. CONTAINER - CONTACT
   /*---------------------------------------------------------------------*/
-  .container#metodh .divider {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  /*---------------------------------------------------------------------*/
-  /*  2.4. CONTAINER - ACOOLADES
-  /*---------------------------------------------------------------------*/
-  .container#accolades .bookmark {
-    margin-top: 80px;
-    font-size: 40px;
-  }
-  
-  .container#accolades .divider {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  /*---------------------------------------------------------------------*/
-  /*  2.5. CONTAINER - CONTACT
-  /*---------------------------------------------------------------------*/
-  .container#project .divider {
-    margin-right: auto;
-    margin-left: auto;
-  }
+.container#project .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+.container#project .card-project {
+  width: 280px;
+  height: 280px;
+  margin-top: 10px;
+  background-color: var(--secundary);
+}
+
+@media (min-width: 594px) {
   .container#project .card-project {
-    width: 280px;
-    height: 280px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+  }
+}
+
+@media (min-width: 620px) {
+  .container#project .card-project {
+    margin-right: 5px;
+    margin-left: 5px;
     margin-top: 10px;
-    background-color: var(--secundary);
   }
-  
-  @media (min-width: 594px) {
-    .container#project .card-project {
-      margin-right: 2px;
-      margin-left: 2px;
-      margin-top: 2px;
-    }
-  }
-  
-  @media (min-width: 620px) {
-      .container#project .card-project {
-        margin-right: 5px;
-        margin-left: 5px;
-        margin-top: 10px;
-      }
-  }
-  
-  .container#project .flexibility {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
+}
+
+.container#project .flexibility {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---------------------------------------------------------------------*/
+/*  . components
   /*---------------------------------------------------------------------*/
-  /*  . components
-  /*---------------------------------------------------------------------*/
-  .badge {
-    border-color: #00b5f8;
-    color: #00b5f8;
-    font-size: 1rem;
-  }
-  
+.badge {
+  border-color: #00b5f8;
+  color: #00b5f8;
+  font-size: 1rem;
+}
