@@ -150,7 +150,7 @@
   color: #3cc1fa;
 }
 
-.container#skills .card-skill h4 {
+.container#skills .card-skill .card-skill-title {
   margin-bottom: 5px;
 }
 
