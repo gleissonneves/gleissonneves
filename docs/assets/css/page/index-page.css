@@ -68,7 +68,7 @@
   user-select: none;
 }
 
-.container#apresentation div#photo img {
+.container#apresentation div#photo .me {
   width: 100%;
   user-select: none;
 }
@@ -191,7 +191,7 @@
   font-size: 40px;
 }
 
-.container#accolades .bookmark img {
+.container#accolades .bookmark .icon {
   width: 50px;
 }
 
