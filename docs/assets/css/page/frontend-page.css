@@ -158,24 +158,47 @@
 }
 
 /*---------------------------------------------------------------------*/
-/*  2.5. CONTAINER - CONTACT
-  /*---------------------------------------------------------------------*/
+/*  2.5. CONTAINER - project
+/*---------------------------------------------------------------------*/
 .container#project .divider {
   margin-right: auto;
   margin-left: auto;
 }
+
 .container#project .card-project {
-  width: 280px;
-  height: 280px;
-  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top: 2px;
   background-color: var(--secundary);
+  color: var(--white);
 }
 
-@media (min-width: 594px) {
+.container#project .card-project .icon {
+  width: 55px;
+  margin-bottom: 4px;
+}
+
+.container#project .card-project h4 {
+  margin-bottom: 5px;
+}
+
+.container#project .card-project p {
+  display: none;
+}
+
+@media (min-width: 590px) {
   .container#project .card-project {
+    width: 280px;
+    height: 280px;
     margin-right: 2px;
     margin-left: 2px;
     margin-top: 2px;
+  }
+
+  .container#project .card-project p {
+    display: block;
   }
 }
 
