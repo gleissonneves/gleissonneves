@@ -68,7 +68,8 @@
   user-select: none;
 }
 
-.container#apresentation div#photo img{
+.container#apresentation div#photo img {
+  width: 100%;
   user-select: none;
 }
 
@@ -190,6 +191,10 @@
   font-size: 40px;
 }
 
+.container#accolades .bookmark img {
+  width: 50px;
+}
+
 .container#accolades .divider {
   margin-right: auto;
   margin-left: auto;
@@ -197,7 +202,7 @@
 
 /*---------------------------------------------------------------------*/
 /*  2.5. CONTAINER - CONTACT
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 .container#contact .divider {
   margin-right: auto;
   margin-left: auto;
@@ -211,4 +216,36 @@
   width: 130px;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+/*---------------------------------------------------------------------*/
+/*  FOOTER
+/*---------------------------------------------------------------------*/
+footer {
+  background-color: var(--dark-1);
+  padding-top: 70px;
+  padding-bottom: 50px;
+  width: 100%;
+  border-radius: 50px 50px 0px 0px;
+  text-align: center;
+  color: var(--white);
+  font-size: 15px;
+}
+
+footer .page-scroll > a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-top: -94px;
+  margin-left: -24px;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: #00b5f8;
+  box-shadow: 0 3px 0 #0b6fe0;
+  color: var(--white);
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
 }
