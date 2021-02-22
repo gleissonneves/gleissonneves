@@ -32,18 +32,3 @@
   border-width: 1px;
   border-style: solid;
 }
-
-/* ----- Status ----- */
-.badge-status {
-  display: inline-block;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-}
-
-.badge-status-sm {
-  display: inline-block;
-  border-radius: 50%;
-  width: 13px;
-  height: 13px;
-}
