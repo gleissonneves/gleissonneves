@@ -8,7 +8,7 @@
     <title>Gleisson Neves - Portifólio</title>
 
     <!-- SEO -->
-    <meta name="description" content="" />
+    <meta name="description" content="Oiê, é o Gleisson vem conhecer um pouco do meu trabalho!!" />
     <meta name="keywords"
         content="Gleisson Neves, Programação, PHP, Javascript, jQuery, Internet, Site, Portifólio, Desenvolvedor, freelancer, UI, usabilidade, UX, acessibilidade, interface" />
     <meta name="rating" content="general" />
@@ -20,31 +20,36 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_BR">
     <meta property="og:title" content="Gleisson Neves - Portifólio">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Oiê, é o Gleisson vem conhecer um pouco do meu trabalho!!">
     <meta property="og:image" content="">
     <meta property="og:image:width" content="590" />
     <meta property="og:image:height" content="440" />
     <!-- END SEO -->
 
     <!--/> Libs  -->
-    <link rel="stylesheet" href="./assets/libs/animate-css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/libs/animate-css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/libs/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/libs/slick-1.8.1/slick/slick-theme.css"/>
     <!--/> END Libs  -->
+    
+    <!-- Modify libs -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick-modify.css" />
+    <!-- END Modify libs -->
 
     <!--/> STYLE  | Components CSS -->
-    <link rel="stylesheet" href="./assets/css/element/reset-modify.css" />
-    <link rel="stylesheet" href="./assets/css/component/components.css" />
-    <link rel="stylesheet" href="./assets/css/component/comp-modal.css" />
-    <link rel="stylesheet" href="./assets/css/page/backend-page.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/element/reset-modify.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/component/components.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/page/main-page.css" />
     <!--/> END STYLE  | END Components CSS -->
 
     <!--/> Font  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap"
-        rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap">
     <!--/> END Font  -->
 
     <!--/> Icon  -->
-    <link rel="stylesheet" href="./assets/libs/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/libs/fontawesome/css/all.min.css" />
     <!--/> END Icon  -->
 </head>
 
@@ -138,7 +143,7 @@
 
             <span class="divider"></span>
 
-            <div class="flexibility">
+            <div class="flexibility slick-scroll">
                 <div class="card card-project">
                     <div class="card-body">
                         <img src="./assets/img/backend-butterfly.svg" alt="icon" class="icon">
@@ -149,7 +154,7 @@
                         </p>
 
                         <div class="card-footer">
-                            <a href="javascript::0" class="card-link project-display">Abrir</a>
+                            <a href="javascript::0" class="card-link project-display">visualizar projeto</a>
                         </div>
                     </div>
                 </div>
@@ -164,7 +169,7 @@
                         </p>
 
                         <div class="card-footer">
-                            <a href="javascript::0" class="card-link project-display">Abrir</a>
+                            <a href="javascript::0" class="card-link project-display">visualizar projeto</a>
                         </div>
                     </div>
                 </div>
@@ -179,7 +184,7 @@
                         </p>
 
                         <div class="card-footer">
-                            <a href="javascript::0" class="card-link project-display">Abrir</a>
+                            <a href="javascript::0" class="card-link project-display">visualizar projeto</a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +199,37 @@
                         </p>
 
                         <div class="card-footer">
-                            <a href="javascript::0" class="card-link project-display">Abrir</a>
+                            <a href="javascript::0" class="card-link project-display">visualizar projeto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-project">
+                    <div class="card-body">
+                        <img src="./assets/img/backend-butterfly.svg" alt="icon" class="icon">
+                        <h4>Butterfly</h4>
+                        <p class="text-grey">
+                            Ferramenta para ambientalização de sistemas web com arquitetura MVC mais Dao, preparando
+                            também o ambiente para o desenvolvimento de APIs REST.
+                        </p>
+
+                        <div class="card-footer">
+                            <a href="javascript::0" class="card-link project-display">visualizar projeto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-project">
+                    <div class="card-body">
+                        <img src="./assets/img/backend-butterfly.svg" alt="icon" class="icon">
+                        <h4>Butterfly</h4>
+                        <p class="text-grey">
+                            Ferramenta para ambientalização de sistemas web com arquitetura MVC mais Dao, preparando
+                            também o ambiente para o desenvolvimento de APIs REST.
+                        </p>
+
+                        <div class="card-footer">
+                            <a href="javascript::0" class="card-link project-display">visualizar projeto</a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +243,7 @@
     <footer class="footer">
         <div class="container pos-relative">
             <div class="page-scroll">
-                <a href="#page-top" aria-label="toPage"><i class="fas fa-angle-up"></i></a>
+                <a id="page-top" href="#page-top" aria-label="toPage"><i class="fas fa-angle-up"></i></a>
             </div>
 
             <p class="text-grey">
@@ -221,68 +256,20 @@
     </footer>
 
     <!-- JS -->
-    <script src="./assets/libs/jquery-3.5.1.min.js"></script>
     <script src="./assets/libs/fontawesome/js/all.min.js"></script>
-    <script src="./assets/js/animated.js"></script>
+    
+    <!-- jquery -->
+    <script src="./assets/libs/jquery/jquery-1.11.1.min.js"></script>
+    <script src="./assets/libs/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <!-- end jquery -->
+
+    <!-- Slick -->
+    <script src="./assets/libs/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/scrolling-card.js"></script>
+    <!-- end Slick -->
+    
+    <script src="./assets/js/animated.min.js"></script>
     <!-- end JS -->
-
-    <div class="modal">
-        <div class="modal-dialog modal-size">
-            <div class="modal-header">
-                <!--  <button type="button" class="modal-close">
-                  <span class="icon-close" aria-hidden="true">
-                    <i class="far fa-times-circle"></i>
-                  </span>
-                </button> -->
-            </div>
-
-            <div class="modal-body reposive">
-                <!-- sindbar -->
-                <div>
-                    <div class="card card-explanation-project">
-                        <div class="card-body">
-                            <h1 class="title">Projeto</h1>
-                            <a href="">https://github.com/gdk46</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end method -->
-
-                <!-- method -->
-                <div>
-                    <h1>
-                        Explicação
-                    </h1>
-                    <p>
-                        Maecenas blandit vulputate semper. Praesent feugiat neque sit amet elit aliquam semper.
-                        Donec ut lorem est. Curabitur accumsan tincidunt enim, sed porta mi molestie eget.
-                        Donec posuere metus id lorem vulputate, ut elementum quam pulvinar.
-                        Aenean a metus a metus ultricies laoreet. Fusce vel tortor sed ante elementum hendrerit nec ut
-                        neque.
-                        Praesent egestas eros quis lacinia maximus.
-                        Sed eu auctor quam, varius venenatis augue. Cras in mollis urna, et scelerisque nisi.
-                    </p>
-                </div>
-                <!-- end method -->
-
-                <!-- imgs -->
-                <div>
-                    <img src="" alt="" width="" height="" class="">
-                    <img src="" alt="" width="" height="" class="">
-                    <img src="" alt="" width="" height="" class="">
-                </div>
-                <!-- end imgs -->
-            </div>
-        </div>
-    </div>
-
-    <script>
-        $(document).ready(function () {
-            $(".project-display").click(function () {
-                alert();
-            })
-        });
-    </script>
 </body>
 
 </html>

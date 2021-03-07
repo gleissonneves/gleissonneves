@@ -79,10 +79,19 @@
 }
 
 .container#apresentation div#photo + div #name {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
   font-size: 25px;
-  font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: var(--white);
+}
+
+.container#apresentation div#photo + div #stacks-list {
+  -moz-user-select: none;
+  -webkit-user-select: none;  
+  user-select: none;
+  
+  margin-bottom: 15px;
 }
 
 /*---------------------------------------------------------------------*/
@@ -94,6 +103,11 @@
 
 .container#profile .profile-text {
   text-align: center;
+}
+
+.container#profile .profile-text h2.container-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
 }
 
 .container#profile #description {
@@ -131,6 +145,11 @@
   color: var(--white);
 }
 
+.container#skills h2.container-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
 .container#skills .divider {
   margin-right: auto;
   margin-left: auto;
@@ -144,6 +163,11 @@
   border-radius: 30px;
 }
 
+.container#skills .card-skill .card-link{
+  color: #00b5f8;
+}
+
+
 .container#skills .card-skill .icon {
   font-size: 40px;
   margin-bottom: 15px;
@@ -151,6 +175,8 @@
 }
 
 .container#skills .card-skill .card-skill-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 
@@ -178,6 +204,12 @@
 /*---------------------------------------------------------------------*/
 /*  2.3. CONTAINER - METODH
   /*---------------------------------------------------------------------*/
+
+.container#metodh h2.container-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
 .container#metodh .divider {
   margin-right: auto;
   margin-left: auto;
@@ -185,7 +217,7 @@
 
 /*---------------------------------------------------------------------*/
 /*  2.4. CONTAINER - ACOOLADES
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 .container#accolades .bookmark {
   margin-top: 80px;
   font-size: 40px;
@@ -203,6 +235,10 @@
 /*---------------------------------------------------------------------*/
 /*  2.5. CONTAINER - CONTACT
 /*---------------------------------------------------------------------*/
+.container#contact a {
+  text-decoration: underline;
+}
+
 .container#contact .divider {
   margin-right: auto;
   margin-left: auto;

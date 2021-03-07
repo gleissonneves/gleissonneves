@@ -5,8 +5,11 @@ $(function () {
             targetOffset = $(id).offset().top;
 
         $('html, body').animate({
-            scrollTop: targetOffset - 100
-        }, 500);
+            scrollTop: targetOffset - 200
+        }, {
+            duration: "slow",
+            easing: "easein"
+        });
     });
 
 });

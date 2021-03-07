@@ -44,7 +44,7 @@
 
 /*---------------------------------------------------------------------*/
 /*  2.2. CONTAINER - navigation
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 .container#navigation {
   padding: 2rem 1rem;
   font-size: 1.2rem;
@@ -67,8 +67,8 @@
 }
 
 /*---------------------------------------------------------------------*/
-/*   2.1. CONTAINER - PROFILE
-  /*---------------------------------------------------------------------*/
+/*   2.1. CONTAINER - presentation
+/*---------------------------------------------------------------------*/
 .container#presentation {
   background-color: var(--dark);
 }
@@ -78,6 +78,7 @@
 }
 
 .container#presentation .container-title {
+  font-family: 'Nunito', sans-serif;  
   font-weight: 200;
   font-size: 4rem;
 }
@@ -105,7 +106,7 @@
   .container#presentation .container-wrapper {
     width: 45%;
   }
-
+  
   .container#presentation #description {
     width: 600px;
   }
@@ -122,13 +123,17 @@
 
 /*---------------------------------------------------------------------*/
 /*  2.. CONTAINER - methodology 
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 
 .container#methodology {
   padding: 2rem 3rem;
   font-size: 1.2rem;
   font-weight: 300;
   color: var(--white);
+}
+
+.container#methodology .container-title {
+  font-family: 'Nunito', sans-serif;  
 }
 
 .container#methodology .divider {
@@ -138,7 +143,7 @@
 
 /*---------------------------------------------------------------------*/
 /*  2.3. CONTAINER - METODH
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 .container#metodh .divider {
   margin-right: auto;
   margin-left: auto;
@@ -146,7 +151,7 @@
 
 /*---------------------------------------------------------------------*/
 /*  2.4. CONTAINER - ACOOLADES
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 .container#accolades .bookmark {
   margin-top: 80px;
   font-size: 40px;
@@ -164,6 +169,11 @@
 /*---------------------------------------------------------------------*/
 /*  2.5. CONTAINER - project
 /*---------------------------------------------------------------------*/
+.container#project .container-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
 .container#project .divider {
   margin-right: auto;
   margin-left: auto;
@@ -177,6 +187,11 @@
   margin-top: 2px;
   background-color: var(--secundary);
   color: var(--white);
+  border-radius: 30px;
+}
+
+.container#project .card-project a {  
+  color: #00b5f8;
 }
 
 .container#project .card-project .icon {
@@ -191,6 +206,8 @@
 .container#project .card-project p {
   display: none;
 }
+
+
 
 @media (min-width: 590px) {
   .container#project .card-project {
@@ -220,6 +237,15 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+/*---------------------------------------------------------------------*/
+/*  . components
+/*---------------------------------------------------------------------*/
+.badge {
+  border-color: #00b5f8;
+  color: #00b5f8;
+  font-size: 1rem;
 }
 
 /*---------------------------------------------------------------------*/
