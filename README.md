@@ -19,7 +19,7 @@
 * 🤡 curiosidades: Gosto de ler, escutar música, amo café, bolo, filmes, anime, série etc. Tenho algumas plantas e dois gatinhos, Amo estudar, novas aventuras...
 
 ### Stack
-CSS | HTML | Vanilia | PHP | Python | Dart | SQL
+CSS | HTML | Vanilia | PHP | Dart | SQL
 
 ### Estatísticas
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gdk46&hide=html,hack&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
