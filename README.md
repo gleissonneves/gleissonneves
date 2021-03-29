@@ -1,8 +1,8 @@
 ## Gleisson Neves (Laravel Developer | Back-end PHP| Front-end)
 
-![Metrics](https://metrics.lecoq.io/gdk46?template=classic&isocalendar=1&isocalendar.duration=half-year&config.timezone=America%2FSao_Paulo&config.animated=true)
 
-### Sobre mim
+
+### 👨🏻‍💻 Sobre mim
 
 * 19
 * Nordestino
@@ -16,9 +16,13 @@
 * 👻 Conte comigo para projetos Open source e que envolva muitos desafios e agrege às comunidades.
 * 💬 Aberto a ajudar a quem precisar, no que eu puder ajudar!
 * 😄 Sou criativo, disposto, proativo, além disso muito curioso (rs).
-* 🤡 curiosidades: Gosto de ler, escutar música, amo café, bolo, filmes, anime, série etc. Tenho algumas plantas e dois gatinhos, Amo estudar, novas aventuras...
+* 🤡 curiosidades: Gosto de ler, escutar música, amo café, bolo, filmes, anime, série etc.
 
-### Stack
+### 🚀💻 Stack
+* Sou nativo em PHP.
+* Conhecimentos nativo em modelagem de inteface HTML e CSS
+* UI
+* Git | GitHub
 CSS | HTML | Vanilia | PHP | Dart | SQL
 
 ### Estatísticas
