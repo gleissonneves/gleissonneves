@@ -19,15 +19,16 @@
 
 ### 👨🏻‍💻 Sobre mim
 
-* 19
-* Atuo como desenvolvedor Back-end PHP (Laravel) ou como Front-end.
-* Nordestino
-* Autodidata. Busco me aperfeiçoar atráves de livros, bootcamps, transmitindo conhecimento (ajudando em comunidades)
-* Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vista.
+* 19;
+* Atuo como desenvolvedor Back-end PHP (Laravel) ou como Front-end;
+* Nordestino;
+* Autodidata. Busco me aperfeiçoar atráves de livros, bootcamps, transmitindo conhecimento (ajudando em comunidades);
+* Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vista;
+* Comecei a programar em 2016/2017.
 
 ### 💡🖥️ Interesses e Atuações
 
-* 🖥️ Atualmente estou buscando uma oportunidade para trabalhar com PHP ou front-end;
+* 🖥️ Atualmente estou buscando uma oportunidade para trabalhar com Back-end PHP ou Front-end;
 * 🌱 Atuo em projetos para melhorar a produtividade e acelerar o processo de desenvolvimento de sistemas Web;
 * 👻 Conte comigo para projetos Open source e que envolva muitos desafios e agrege às comunidades;
 * 💬 Aberto a ajudar a quem precisar, no que eu puder ajudar!;
@@ -43,7 +44,10 @@
 * Git | GitHub;
 * JS;
 * Dart | Flutter;
-* Banco de dados de sintaxe SQL.
+* Banco de dados de sintaxe SQL;
+* Framework CSS: UIKit, Tailwind CSS, Bulma, Bootstrap 4;
+* Framework JS: Jquery.
+* Framework PHP: Laravel.
 
 ### 🚀💻 Idiomas
 * Inglês básico/técnico (Escrita e leitura. Capacidade para ler e documentar aplicações).
