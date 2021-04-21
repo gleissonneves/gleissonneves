@@ -51,9 +51,8 @@
 
 
 ### 🚀:octocat: Portifólio
-<a href="https://gdk46.github.io/gdk46/" rel="nofollow noreferrer">
-  Oie, te convido a conhecer melhor meu trabalho ❤️!!
-</a>
+
+Oie, te convido a conhecer melhor <a href="https://gdk46.github.io/gdk46/" rel="nofollow noreferrer">meu trabalho ❤️!!</a>
 
 ### 🚀💻 Idiomas
 * Inglês básico/técnico (Escrita e leitura. Capacidade para ler e documentar aplicações).
