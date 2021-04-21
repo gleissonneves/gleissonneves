@@ -41,13 +41,19 @@
 * Sou nativo em PHP;
 * Conhecimentos nativo em modelagem de inteface HTML e CSS;
 * UI;
-* Git | GitHub;
+* Git | GitHub | Gitlab;
 * JS;
 * Dart | Flutter;
 * Banco de dados de sintaxe SQL;
 * Framework CSS: UIKit, Tailwind CSS, Bulma, Bootstrap 4;
-* Framework JS: Jquery.
+* Framework JS: Jquery, Angular.
 * Framework PHP: Laravel.
+
+
+### 🚀:octocat: Portifólio
+<a href="https://gdk46.github.io/gdk46/" rel="nofollow noreferrer">
+  Oie, te convido a conhecer melhor meu trabalho ❤️!!
+</a>
 
 ### 🚀💻 Idiomas
 * Inglês básico/técnico (Escrita e leitura. Capacidade para ler e documentar aplicações).
