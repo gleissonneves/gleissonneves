@@ -42,7 +42,7 @@
 * Conhecimentos nativo em modelagem de inteface HTML e CSS;
 * UI;
 * Git | GitHub | Gitlab;
-* JS;
+* JavaScript | TypeScript;
 * Dart | Flutter;
 * Banco de dados de sintaxe SQL;
 * Framework CSS: UIKit, Tailwind CSS, Bulma, Bootstrap 4;
