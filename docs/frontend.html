@@ -40,6 +40,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/element/reset-modify.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/component/components.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/page/main-page.css" />
+    <link rel="stylesheet" href="./assets/css/component/comp-loading.css"/>
     <!--/> END STYLE  | END Components CSS -->
 
     <!--/> Font  -->
@@ -54,6 +55,24 @@
 </head>
 
 <body id="page-top">
+    <div class="loading">
+      <div class="loading-content">
+        <div class="load-wrapp">
+          <div class="load">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        
+        <div>
+          <p class="loading-text">
+            Aguarde enquanto preparamos tudo para você!
+          </p>
+        </div>
+      </div>
+    </div>
+
     <div id="header" class="header flex row">
         <div class="container-wrapper">
             <ul>
@@ -315,7 +334,7 @@
                 Todos direitos reservados.
             </p>
 
-            <p class="text-grey">V1.0.0</p>
+            <p class="text-grey">V1.0.2</p>
         </div>
 
     </footer>
@@ -326,6 +345,14 @@
     <script type="text/javascript" src="./assets/libs/slick-1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="./assets/js/scrolling-card.js"></script>
     <script type="text/javascript" src="./assets/js/animated.min.js"></script>
+    
+    <script>
+      $(document).ready(function() {
+        setTimeout(function() { 
+          $(".loading").fadeOut();
+        }, 2000);
+      })
+    </script>
     
     <!-- data analysis Google -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XYJG7GD4WS"></script>

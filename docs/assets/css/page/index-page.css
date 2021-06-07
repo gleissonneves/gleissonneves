@@ -1,98 +1,20 @@
 /*-----------------------------------------------------------------------
 /*  Description : Creative Resume Template
-/*  Version     : 1.0
+/*  Version     : 1.0.0
 /*-----------------------------------------------------------------------
 1. BANNER
 
 2. CONTAINER STYLES & COMPONENTS
-  2.0. CONTAINER - APRESENTATION
+  2.0.
   2.1. CONTAINER - PROFILE
-  2.2. CONTAINER - SKILL
-  2.3. CONTAINER - ACCOLADES
-  2.4. CONTAINER - CONTACT
-  2.5. CONTAINER - SKILL
+  2.3. CONTAINER - PROJECT
+  2.4. CONTAINER - SERVICE
+  2.5. CONTAINER - ACCOLADES
   2.6. CONTAINER - CONTACT
+  2.7. CONTAINER - SKILL
+  2.8. CONTAINER - CONTACT
 -----------------------------------------------------------------------*/
 
-/*---------------------------------------------------------------------*/
-/*  1. BANNER
-/*---------------------------------------------------------------------*/
-#banner {
-  width: 100%;
-  height: 217px;
-  background-color: var(--secundary);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 0px 0px 50px 50px;
-  padding: 1.5rem 1rem;
-}
-
-#banner .icon-content {
-  width: 25px;
-  height: 25px;
-  margin-right: 5px;
-}
-
-#banner .icon-content:nth-child(1n) {
-  background-color: #fc4b45;
-}
-
-#banner .icon-content:nth-child(2n) {
-  background-color: #e4bd12;
-}
-
-#banner .icon-content:nth-child(3n) {
-  background-color: #52c22d;
-}
-
-/*---------------------------------------------------------------------*/
-/*  2. CONTAINER
-/*  2.0 CONTAINER APRESENTATION
-/*---------------------------------------------------------------------*/
-.container#apresentation {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.container#apresentation .container-wrapper {
-  padding: 40px 0px;
-}
-
-.container#apresentation div#photo {
-  position: absolute;
-  top: -100px;
-  width: 250px;
-  height: 250px;
-  background-color: var(--white);
-  user-select: none;
-}
-
-.container#apresentation div#photo .me {
-  width: 100%;
-  user-select: none;
-}
-
-.container#apresentation div#photo + div {
-  margin-top: 180px;
-  margin-bottom: 70px;
-}
-
-.container#apresentation div#photo + div #name {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
-  font-size: 25px;
-  margin-bottom: 15px;
-  color: var(--white);
-}
-
-.container#apresentation div#photo + div #stacks-list {
-  -moz-user-select: none;
-  -webkit-user-select: none;  
-  user-select: none;
-  
-  margin-bottom: 15px;
-}
 
 /*---------------------------------------------------------------------*/
 /*   2.1. CONTAINER - PROFILE
@@ -102,12 +24,33 @@
 }
 
 .container#profile .profile-text {
-  text-align: center;
+  text-align: left;
+}
+
+.container#profile .container-preTitle {
+  background-image: linear-gradient(
+      to bottom,
+      #00b5f8,
+      #1fb9f9,
+      #2fbdfa,
+      #3cc1fa,
+      #47c5fb
+    );
+  background-color: #3cc1fa;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .container#profile .profile-text h2.container-title{
   font-family: 'Nunito', sans-serif;
-  font-weight: 600;
+  font-weight: 800;
+  font-size: 2.5rem;
 }
 
 .container#profile #description {
@@ -115,60 +58,81 @@
 }
 
 .container#profile .profile-text .divider {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 @media (min-width: 720px) {
   .container#profile #description {
-    width: 600px;
+    width: 500px;
   }
 
   .container#profile .profile-text {
     text-align: justify;
   }
-
-  .container#profile .profile-text .divider {
-    margin-right: 0;
-    margin-left: 0;
-  }
 }
 
+
 /*---------------------------------------------------------------------*/
-/*  2.2. CONTAINER - SKILLS
+/*  2.2. CONTAINER - PROJECT
   /*---------------------------------------------------------------------*/
 
-.container#skills {
+.container#project {
   padding: 2rem 3rem;
   font-size: 1.2rem;
   font-weight: 300;
   color: var(--white);
+  background-color: var(--dark-1);
+  
+  display: flex;
+  justify-content: center;
 }
 
-.container#skills h2.container-title{
+.container#project h2.container-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
+  width: 100%;
 }
 
-.container#skills .divider {
+@media (min-width: 720px) {
+  .container#project h2.container-title {
+    width: 700px;
+  }
+}
+
+.container#project .divider {
   margin-right: auto;
   margin-left: auto;
 }
 
-.container#skills .card-skill {
+.container#project .container-content-project {
+  width: 100%;
+}
+
+.container#project .container-content-project .content-project {
+  width: 100%;
+  background-color: #f1f2fe;
+}
+
+@media (min-width: 720px) {
+  .container#project .container-content-project .content-project {
+    width: 700px;
+  }
+}
+
+.container#project .container-content-project .content-project .content-project-title {
+  
+}
+
+.container#project .card-skill {
   width: 267px;
   height: 267px;
   margin-top: 10px;
   background-color: var(--secundary);
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
-.container#skills .card-skill .card-link{
-  color: #00b5f8;
-}
-
-
-.container#skills .card-skill .icon {
+.container#project .card-skill .icon {
   font-size: 40px;
   margin-bottom: 15px;
   color: #3cc1fa;
@@ -182,18 +146,64 @@
 
 @media (min-width: 720px) {
   .container#skills .card-skill {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
   }
 }
 
-@media (min-width: 962px) {
-  .container#skills .card-skill:nth-last-child(2n + 1) {
-    margin-top: 150px;
+
+/*---------------------------------------------------------------------*/
+/*  2.2. CONTAINER - SERVICE
+  /*---------------------------------------------------------------------*/
+
+.container#service {
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--white);
+  border-radius: 10px;
+}
+
+.container#service h2.container-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.container#service .divider {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container#service .card-service {
+  width: 267px;
+  margin-top: 10px;
+  background-color: #313134;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.container#service .card-body {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.container#service .card-service .icon {
+  font-size: 40px;
+  color: #3cc1fa;
+  margin-right: 7px;
+}
+
+@media (min-width: 720px) {
+  .container#service .card-service {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
   }
 }
 
-.container#skills .flexibility {
+.container#service .flexibility {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -258,14 +268,14 @@
 /*  FOOTER
 /*---------------------------------------------------------------------*/
 footer {
-  background-color: var(--dark-1);
+  background-color: var(--secundary);
   padding-top: 70px;
   padding-bottom: 50px;
   width: 100%;
-  border-radius: 50px 50px 0px 0px;
   text-align: center;
   color: var(--white);
   font-size: 15px;
+  border-radius: 10px 10px 0 0;
 }
 
 footer .page-scroll > a {
