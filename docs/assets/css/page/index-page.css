@@ -83,25 +83,25 @@
   font-weight: 300;
   color: var(--white);
   background-color: var(--dark-1);
-  display: flex;
-  justify-content: center;
 }
 
 .container#project h2.container-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   width: 100%;
+  
 }
 
 @media (min-width: 720px) {
   .container#project h2.container-title {
-    width: 700px;
+    /*width: 700px;*/
   }
 }
 
 .container#project .divider {
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 .container#project .container-content-project {
@@ -128,10 +128,13 @@
 }*/
 
 .container#project .container-content-project .content-project .content-project-title {
+  margin-bottom: .75rem;
+}
+
+.container#project .container-content-project .content-project .content-project-title h2.project-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  
 }
 
 .container#project .container-content-project .content-project .card-project {
@@ -150,6 +153,23 @@
   }
 }
 
+.container#project .container-content-project .content-project .content-project-action {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.container#project .container-content-project .content-project .content-project-action a {
+    display: inline-block;
+    margin-right: 6px;
+    font-family: 'Nunito', sans-serif;
+    color: #ff6433;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
 
 /*---------------------------------------------------------------------*/
 /*  2.2. CONTAINER - SERVICE
