@@ -121,13 +121,20 @@
 
 
 @media (min-width: 720px) {
-    
   .container#project .container-content-project .content-project .project {
     width: 80%;
     text-align: left;
   }
 }
 
+
+@media (min-width: 1000px) {
+  .container#project .container-content-project .content-project .project {
+    width: 50%;
+    max-width: 626.5px;
+    text-align: left;
+  }
+}
 
 .container#project .container-content-project .project .row {
   display: flex;
