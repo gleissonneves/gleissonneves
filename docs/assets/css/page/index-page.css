@@ -94,7 +94,7 @@
 .container#project .divider {
   margin-right: auto;
   margin-left: auto;
-  
+  background: #ff6433;
 }
 
 .container#project .container-content-project {
@@ -114,7 +114,6 @@
 .container#project .container-content-project .content-project .project {
   width: 100%;
   text-align: left;
- 
 }
 
 
@@ -298,24 +297,78 @@
 /*---------------------------------------------------------------------*/
 /*  2.5. CONTAINER - CONTACT
 /*---------------------------------------------------------------------*/
-.container#contact a {
-  text-decoration: underline;
+.container#contact {
+  padding: 3rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--white);
+  border-radius: 10px;
 }
 
-.container#contact .divider {
-  margin-right: auto;
-  margin-left: auto;
+.container#contact .container-wrapper .content-contact {
+  padding: 2rem 1rem;
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(
+    to left top,
+    #00b5f8,
+    #00b3f5,
+    #00b1f3,
+    #00aff0,
+    #00adee,
+    #48a8f7,
+    #73a0fa,
+    #9a97f7,
+    #e27ed9,
+    #ff6aa0,
+    #ff725b,
+    #ec9002
+  );
+  border-radius: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.container#contact .container-wrapper .content-contact .content-img {
+  width: 300px;
+}
+.container#contact .container-wrapper .content-contact .content-img .my-photo {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  clip-path: inset(5% 20% 15% 10% round 20% 0 20% 0);
 }
 
-.container#contact .divider.divider-sm {
-  width: 50px;
+.social-midia {
+  margin-bottom: 45px;
 }
 
-.container#contact .icon {
-  width: 130px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+.social-midia li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
 }
+
+.social-midia li .item {
+  position: relative;
+  width: 39px;
+  height: 39px;
+  border-radius: 10px 0 10px 0;
+  background-color: #ff6433;
+}
+
+.social-midia > li > .item > a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 39px;
+  height: 39px;
+  line-height: 40px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
 
 /*---------------------------------------------------------------------*/
 /*  FOOTER
