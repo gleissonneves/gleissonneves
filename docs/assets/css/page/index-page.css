@@ -108,27 +108,41 @@
   width: 100%;
 }
 
-.container#project .container-content-project .content-project {
+.container#project .container-content-project .content-project div.projects {
   width: 100%;
-  display: flex;
-  flex-direction: column;
   text-align: left;
 }
 
-.container#project .container-content-project .row {
+.container#project .container-content-project .content-project .project {
+  width: 100%;
+  text-align: left;
+ 
+}
+
+
+@media (min-width: 720px) {
+    
+  .container#project .container-content-project .content-project .project {
+    width: 80%;
+    text-align: left;
+  }
+}
+
+
+.container#project .container-content-project .project .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.container#project .container-content-project .content-project .content-project-title {
-  margin-bottom: .75rem;
+.container#project .container-content-project .content-project .project .content-project-title {
+  margin-bottom: .75rem
+  margin-left: .5rem;
 }
 
 .container#project .container-content-project .content-project .content-project-title h2.project-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   font-size: 1.9rem;
-  margin-left: .5rem;
 }
 
 .container#project .container-content-project .content-project .card-project {
