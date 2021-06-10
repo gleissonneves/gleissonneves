@@ -108,6 +108,11 @@
   width: 100%;
 }
 
+.container#project .container-content-project .content-end {
+  display: flex;
+  justify-content: end;
+}
+
 .container#project .container-content-project .content-project div.projects {
   width: 100%;
   text-align: left;
@@ -130,7 +135,7 @@
 
 @media (min-width: 1000px) {
   .container#project .container-content-project .content-project .project {
-    width: 50%;
+    width: 49.5%;
     max-width: 626.5px;
     text-align: left;
   }
