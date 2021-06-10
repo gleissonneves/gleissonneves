@@ -115,17 +115,10 @@
   text-align: left;
 }
 
-.row {
+.container#project .container-content-project .row {
   display: flex;
   flex-wrap: wrap;
-  flex-flow: row;
 }
-
-/*@media (min-width: 720px) {
-  .container#project .container-content-project .content-project {
-    width: 700px;
-  }
-}*/
 
 .container#project .container-content-project .content-project .content-project-title {
   margin-bottom: .75rem;
@@ -134,7 +127,8 @@
 .container#project .container-content-project .content-project .content-project-title h2.project-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+  margin-left: .5rem;
 }
 
 .container#project .container-content-project .content-project .card-project {
@@ -162,14 +156,36 @@
 
 .container#project .container-content-project .content-project .content-project-action a {
     display: inline-block;
+    padding: 10px 16px 8px;
+    transition: background-color 200ms ease-in;
+    transition: background-color 200ms ease-in;
+    cursor: pointer;
+    color: #ff6433;
+}
+
+
+.container#project .container-content-project .content-project .content-project-action a:houver {
+    padding: 10px 16px 8px;
+    border-radius: 8px;
+    background-color: rgba(255, 100, 51, 0.05);
+}
+
+
+.container#project .container-content-project .content-project .content-project-action a div {
+    display: inline-block;
     margin-right: 6px;
     font-family: 'Nunito', sans-serif;
-    color: #ff6433;
     font-size: 18px;
     line-height: 18px;
     font-weight: 700;
     text-decoration: none;
 }
+
+.container#project .container-content-project .content-project .content-project-action a i {
+   font-size: 20px;
+   margin-top: 5px;
+}
+
 
 /*---------------------------------------------------------------------*/
 /*  2.2. CONTAINER - SERVICE
