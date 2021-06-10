@@ -64,7 +64,7 @@
 
 @media (min-width: 720px) {
   .container#profile #description {
-    width: 500px;
+    width: 700px;
   }
 
   .container#profile .profile-text {
@@ -83,14 +83,13 @@
   font-weight: 300;
   color: var(--white);
   background-color: var(--dark-1);
-  
   display: flex;
   justify-content: center;
 }
 
 .container#project h2.container-title {
   font-family: 'Nunito', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   width: 100%;
 }
 
@@ -111,41 +110,40 @@
 
 .container#project .container-content-project .content-project {
   width: 100%;
-  background-color: #f1f2fe;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-@media (min-width: 720px) {
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+
+/*@media (min-width: 720px) {
   .container#project .container-content-project .content-project {
     width: 700px;
   }
-}
+}*/
 
 .container#project .container-content-project .content-project .content-project-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
   
 }
 
-.container#project .card-skill {
-  width: 267px;
-  height: 267px;
+.container#project .container-content-project .content-project .card-project {
+  width: 300px;
+  height: 400px;
   margin-top: 10px;
   background-color: var(--secundary);
   border-radius: 10px;
 }
 
-.container#project .card-skill .icon {
-  font-size: 40px;
-  margin-bottom: 15px;
-  color: #3cc1fa;
-}
-
-.container#skills .card-skill .card-skill-title {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
-  margin-bottom: 5px;
-}
-
 @media (min-width: 720px) {
-  .container#skills .card-skill {
+  .container#project .container-content-project .content-project .card-project {
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 5px;
