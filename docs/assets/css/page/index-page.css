@@ -89,13 +89,6 @@
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   width: 100%;
-  
-}
-
-@media (min-width: 720px) {
-  .container#project h2.container-title {
-    /*width: 700px;*/
-  }
 }
 
 .container#project .divider {
@@ -147,11 +140,11 @@
 }
 
 .container#project .container-content-project .content-project .project .content-project-title {
-  margin-bottom: .75rem
+  margin-bottom: .75rem;
   margin-left: .5rem;
 }
 
-.container#project .container-content-project .content-project .content-project-title h2.project-title {
+.container#project .container-content-project .content-project .content-project-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   font-size: 1.9rem;
