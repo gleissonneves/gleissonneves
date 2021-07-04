@@ -10,15 +10,15 @@
   2.3. CONTAINER - PROJECT
   2.4. CONTAINER - SERVICE
   2.5. CONTAINER - ACCOLADES
-  2.6. CONTAINER - CONTACT
+  2.6. 
   2.7. CONTAINER - SKILL
-  2.8. CONTAINER - CONTACT
+3. FOOTER
 -----------------------------------------------------------------------*/
 
 
 /*---------------------------------------------------------------------*/
 /*   2.1. CONTAINER - PROFILE
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 .container#profile {
   background-color: var(--dark);
 }
@@ -28,26 +28,24 @@
 }
 
 .container#profile .container-preTitle {
-  background-image: linear-gradient(
-      to bottom,
+  background-image: linear-gradient(to bottom,
       #00b5f8,
       #1fb9f9,
       #2fbdfa,
       #3cc1fa,
-      #47c5fb
-    );
+      #47c5fb);
   background-color: #3cc1fa;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  
+
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   font-size: 1rem;
 }
 
-.container#profile .profile-text h2.container-title{
+.container#profile .profile-text h2.container-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 800;
   font-size: 2.5rem;
@@ -75,7 +73,7 @@
 
 /*---------------------------------------------------------------------*/
 /*  2.2. CONTAINER - PROJECT
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 
 .container#project {
   padding: 2rem 3rem;
@@ -116,14 +114,12 @@
   text-align: left;
 }
 
-
 @media (min-width: 720px) {
   .container#project .container-content-project .content-project .project {
     width: 80%;
     text-align: left;
   }
 }
-
 
 @media (min-width: 1000px) {
   .container#project .container-content-project .content-project .project {
@@ -173,41 +169,41 @@
 }
 
 .container#project .container-content-project .content-project .content-project-action a {
-    display: inline-block;
-    padding: 10px 16px 8px;
-    transition: background-color 200ms ease-in;
-    transition: background-color 200ms ease-in;
-    cursor: pointer;
-    color: #ff6433;
+  display: inline-block;
+  padding: 10px 16px 8px;
+  transition: background-color 200ms ease-in;
+  transition: background-color 200ms ease-in;
+  cursor: pointer;
+  color: #ff6433;
 }
 
 
 .container#project .container-content-project .content-project .content-project-action a:houver {
-    padding: 10px 16px 8px;
-    border-radius: 8px;
-    background-color: rgba(255, 100, 51, 0.05);
+  padding: 10px 16px 8px;
+  border-radius: 8px;
+  background-color: rgba(255, 100, 51, 0.05);
 }
 
 
 .container#project .container-content-project .content-project .content-project-action a div {
-    display: inline-block;
-    margin-right: 6px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 700;
-    text-decoration: none;
+  display: inline-block;
+  margin-right: 6px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .container#project .container-content-project .content-project .content-project-action a i {
-   font-size: 20px;
-   margin-top: 5px;
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 
 /*---------------------------------------------------------------------*/
 /*  2.2. CONTAINER - SERVICE
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 
 .container#service {
   padding: 2rem 3rem;
@@ -217,7 +213,7 @@
   border-radius: 10px;
 }
 
-.container#service h2.container-title{
+.container#service h2.container-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
 }
@@ -227,10 +223,18 @@
   margin-left: auto;
 }
 
+.container#service .flexibility {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
 .container#service .card-service {
   width: 267px;
-  margin-top: 10px;
-  background-color: #313134;
+  margin-top: 5px;
+  background-color: var(--dark-1);
   border-radius: 10px;
   text-align: left;
 }
@@ -250,24 +254,34 @@
 @media (min-width: 720px) {
   .container#service .card-service {
     margin-right: 5px;
-    margin-left: 5px;
     margin-top: 5px;
   }
 }
 
-.container#service .flexibility {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.container#service .container-service-uvp {
+  margin-top: 10rem;
+  color: var(--primary);
+}
+
+.container#service .container-service-uvp a{
+  margin-left: .5rem;
+  padding: .25rem .85rem;
+  border-radius: .2rem;
+  background-color: #feb169;
+  color: #0c0b0b;
+  font-weight: 500;
+}
+
+.container#service .container-service-uvp a:hover{
+  background-color: #fdac5f;
+  color: #080808;
 }
 
 /*---------------------------------------------------------------------*/
 /*  2.3. CONTAINER - METODH
-  /*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 
-.container#metodh h2.container-title{
+.container#metodh h2.container-title {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
 }
@@ -281,7 +295,8 @@
 /*  2.4. CONTAINER - ACOOLADES
 /*---------------------------------------------------------------------*/
 .container#accolades .bookmark {
-  margin-top: 80px;
+  margin-top: 120px;
+  margin-bottom: 80px;
   font-size: 40px;
 }
 
@@ -294,110 +309,26 @@
   margin-left: auto;
 }
 
-/*---------------------------------------------------------------------*/
-/*  2.5. CONTAINER - CONTACT
-/*---------------------------------------------------------------------*/
-.container#contact {
-  padding: 3rem;
-  font-size: 1.2rem;
-  font-weight: 300;
-  color: var(--white);
-  border-radius: 10px;
-}
-
-.container#contact .container-wrapper .content-contact {
-  padding: 2rem 1rem;
-  width: 100%;
-  height: 500px;
-  background-image: linear-gradient(
-    to left top,
-    #00b5f8,
-    #00b3f5,
-    #00b1f3,
-    #00aff0,
-    #00adee,
-    #48a8f7,
-    #73a0fa,
-    #9a97f7,
-    #e27ed9,
-    #ff6aa0,
-    #ff725b,
-    #ec9002
-  );
-  border-radius: 20px 0 20px 0;
-  display: flex;
-  flex-direction: column;
-}
-.container#contact .container-wrapper .content-contact .content-img {
-  width: 300px;
-}
-.container#contact .container-wrapper .content-contact .content-img .my-photo {
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
-  clip-path: inset(5% 20% 15% 10% round 20% 0 20% 0);
-}
-
-.social-midia {
-  margin-bottom: 45px;
-}
-
-.social-midia li {
-  display: inline-block;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.social-midia li .item {
-  position: relative;
-  width: 39px;
-  height: 39px;
-  border-radius: 10px 0 10px 0;
-  background-color: #ff6433;
-}
-
-.social-midia > li > .item > a {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 39px;
-  height: 39px;
-  line-height: 40px;
-  font-size: 24px;
-  color: #ffffff;
-}
-
 
 /*---------------------------------------------------------------------*/
-/*  FOOTER
+/*  3. FOOTER
 /*---------------------------------------------------------------------*/
 footer {
-  background-color: var(--secundary);
-  padding-top: 70px;
-  padding-bottom: 50px;
+  background-color: var(--dark-1);
+  padding: 20px 3rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
   color: var(--white);
   font-size: 15px;
   border-radius: 10px 10px 0 0;
+  text-align: center;
 }
 
-footer .page-scroll > a {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin-top: -94px;
-  margin-left: -24px;
-  width: 42px;
-  height: 42px;
-  border-radius: 10px;
-  background-color: #00b5f8;
-  box-shadow: 0 3px 0 #0b6fe0;
-  color: var(--white);
-  font-size: 24px;
-  line-height: 50px;
-  text-align: center;
+footer a,
+footer span {
+  margin-right: 10px; 
+}
+
+footer a {
+  color: #5dadec;
 }
