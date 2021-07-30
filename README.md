@@ -20,7 +20,8 @@
 ### 👨🏻‍💻 Sobre mim
 
 * 19;
-* Atuo como desenvolvedor Back-end PHP (Laravel) ou como Front-end;
+* Engenheiro de Software, em formação;
+* Atuo como desenvolvedor Back-end PHP;
 * Nordestino;
 * Autodidata. Busco me aperfeiçoar atráves de livros, bootcamps, transmitindo conhecimento (ajudando em comunidades);
 * Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vista;
@@ -28,26 +29,28 @@
 
 ### 💡🖥️ Interesses e Atuações
 
-* 🖥️ Atualmente estou buscando uma oportunidade para trabalhar com Back-end PHP ou Front-end;
+* 🖥️ Atualmente posso atuar com Back-end PHP ou Front-end;
 * 🌱 Atuo em projetos para melhorar a produtividade e acelerar o processo de desenvolvimento de sistemas Web;
 * 👻 Conte comigo para projetos Open source e que envolva muitos desafios e agrege às comunidades;
 * 💬 Aberto a ajudar a quem precisar, no que eu puder ajudar!;
 * 😄 Sou criativo, disposto, proativo, além disso muito curioso (rs);
 * 🤡 curiosidades: Gosto de ler, escutar música, amo café, bolo, filmes, anime, série etc;
-* ❤️ Atualmente busco conhecimento dentro da área de arquitetura software e desenvolvimento de mobile com Flutter.
+* ❤️ Atualmente busco conhecimento dentro da área de arquitetura software.
 
 ### 🚀💻 Stack and Tools
 
 * Sou nativo em PHP;
-* Conhecimentos nativo em modelagem de inteface HTML e CSS;
-* UI;
+* Framework PHP: Laravel | Symfony.
+* Experiente em modelagem de inteface HTML e CSS;
+* Framework CSS: UIKit, Tailwind CSS, Bulma, Bootstrap 4;
+* UI/UX (conhecimento básico);
 * Git | GitHub | Gitlab;
+* Git flow;
+* Framework JS: Jquery, Angular | Vue.
 * JavaScript | TypeScript;
 * Dart | Flutter;
 * Banco de dados de sintaxe SQL;
-* Framework CSS: UIKit, Tailwind CSS, Bulma, Bootstrap 4;
-* Framework JS: Jquery, Angular.
-* Framework PHP: Laravel.
+
 
 ### 🚀💻 Idiomas
 * Inglês básico/técnico (Escrita e leitura. Capacidade para ler e documentar aplicações).
