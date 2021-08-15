@@ -1,7 +1,7 @@
 ### :octocat: Olá, eu sou o Gleisson Neves ❄️!!
 ### Onde me encontrar
 <span>
-  <a href="https://www.linkedin.com/in/gleisson-neves/" rel="nofollow noreferrer">
+  <a href="https://www.linkedin.com/in/gleissonneves/" rel="nofollow noreferrer">
     <img src="https://img.shields.io/static/v1?label=me&message=Linkedin&color=0A66C2&style=for-the-badge&logo=linkedin"/>
   </a>
 </span>
@@ -57,5 +57,5 @@
 
 ### 🧮📐 Estatísticas
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gdk46&hide=html,hack&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=gdk46&show_icons=true&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gleissonneves&hide=html,hack&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=gleissonneves&show_icons=true&theme=tokyonight)
