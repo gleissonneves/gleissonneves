@@ -101,7 +101,7 @@
 
 .container#project .container-content-project .content-end {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .container#project .container-content-project .content-project div.projects {
@@ -263,7 +263,7 @@
   color: var(--primary);
 }
 
-.container#service .container-service-uvp a{
+.container#service .container-service-uvp a {
   margin-left: .5rem;
   padding: .25rem .85rem;
   border-radius: .2rem;
