@@ -172,7 +172,6 @@
   display: inline-block;
   padding: 10px 16px 8px;
   transition: background-color 200ms ease-in;
-  transition: background-color 200ms ease-in;
   cursor: pointer;
   color: #ff6433;
 }
@@ -263,8 +262,8 @@
   color: var(--primary);
 }
 
-.container#service .container-service-uvp a {
-  margin-left: .5rem;
+.container#service a {
+  margin-top: 1rem;
   padding: .25rem .85rem;
   border-radius: .2rem;
   background-color: #feb169;
@@ -272,7 +271,7 @@
   font-weight: 500;
 }
 
-.container#service .container-service-uvp a:hover{
+.container#service a:hover {
   background-color: #fdac5f;
   color: #080808;
 }
@@ -321,7 +320,6 @@ footer {
   color: var(--white);
   font-size: 15px;
   border-radius: 10px 10px 0 0;
-  text-align: center;
 }
 
 footer a,
