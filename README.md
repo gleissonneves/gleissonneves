@@ -59,3 +59,5 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gleissonneves&hide=html,hack&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=gleissonneves&show_icons=true&theme=tokyonight)
+[![trophy](https://github-profile-trophy.vercel.app/?username=gleissonneves&theme=gruvbox)](https://github.com/gleissonneves/github-profile-trophy)
+
