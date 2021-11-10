@@ -19,13 +19,16 @@
 
 ### 👨🏻‍💻 Sobre mim
 
-* 19;
-* Engenheiro de Software, em formação;
-* Atuo como desenvolvedor Back-end PHP;
+* 20 anos;
+* Pedreiro de Software, em formação;
+* Atuo como Front-end;
+* Tenho uma quedinha de 10 andares UX/UI;
 * Nordestino;
 * Autodidata. Busco me aperfeiçoar atráves de livros, bootcamps, transmitindo conhecimento (ajudando em comunidades);
 * Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vista;
 * Comecei a programar em 2016/2017.
+
+[Veja mais sobre mim no meu Portifólio 💡:blue_heart:](https://gleissonneves.github.io/gleissonneves/)
 
 ### 💡🖥️ Interesses e Atuações
 
