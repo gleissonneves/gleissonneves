@@ -20,7 +20,7 @@
 ### 👨🏻‍💻 Sobre mim
 
 * 20 anos;
-* Pedreiro de Software, em formação;
+* Pedreiro de Software;
 * Atuo como Front-end;
 * Tenho uma quedinha de 10 andares UX/UI;
 * Nordestino;
