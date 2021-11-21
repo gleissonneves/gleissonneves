@@ -71,7 +71,8 @@ Desenvolvi alguns aplicativos para me aprofundar ou conhecer algumas ferramentas
 | spotinc-vue         | vue            | <img src="https://img.shields.io/badge/status project-finished-red"/> |
 | toDoList-angular    | angular        | <img src="https://img.shields.io/badge/status project-finished-red"/> |
 
-#### :bookmark_tabs::hammer_and_wrench: Languagens, frameworks e conceitos
+
+#### :bookmark_tabs::hammer_and_wrench: Lingugens, frameworks e conceitos
 Algumas ferramentas que acabei estudando durante esse período como dev 
 | REPOSITÓRIO                                | LANG/FRAMEWORK  |
 |--------------------------------------------|-----------------|
@@ -84,6 +85,20 @@ Algumas ferramentas que acabei estudando durante esse período como dev
 | software-development-python-study          | Python          |
 | software-development-tdd-study             | TDD             |
 | software-development-vue-study             | Vue             |
+
+
+### :bulb::hammer_and_wrench: Contribua com uma ideia!!
+Algumas ferramentas estou/estive construindo durante minha jornada
+| REPOSITÓRIO        | STATE       | UTIL                                           |
+|--------------------|-------------|------------------------------------------------|
+| Butterfly-php      | depreciated | CRIADOR DE ESTRUTURA BASE PARA PROJETOS        |
+| ConnectDb-php      | depreciated | CONEXÕES COM BANCO DE DADOS SQL                |
+| Crud-php           | depreciated | ABSTRAÇÃO DE MÉTODOS PARA CRIAÇÃO DE CRUDs     |
+| gerador-de-parcela | WELCOME     | MÉTODO PARA GERAR PARCELAS                     |
+| httpRequestAxio    | DEV         | ABSTRAÇÃO DE REQUISIÇÕES COM AXIO              |
+| listOrdering       | WELCOME     | ORDENADOR DE LISTA                             |
+| StarCSS            | depreciated | FRAMEWORK CSS BASEADO EM COM ARQUITETURA ITCSS |
+| utilsJS            | DEV         | FUNÇÕES UTEIS PARA O DIA A DIA                 |
 
 ### 🚀💻 Idiomas
 * Inglês básico/técnico (Escrita e leitura. Capacidade para ler e documentar aplicações).
