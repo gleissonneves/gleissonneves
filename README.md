@@ -91,14 +91,14 @@ Algumas ferramentas que acabei estudando durante esse período como dev
 Algumas ferramentas estou/estive construindo durante minha jornada
 | REPOSITÓRIO        | STATE       | UTIL                                           |
 |--------------------|-------------|------------------------------------------------|
-| Butterfly-php      | depreciated | CRIADOR DE ESTRUTURA BASE PARA PROJETOS        |
-| ConnectDb-php      | depreciated | CONEXÕES COM BANCO DE DADOS SQL                |
-| Crud-php           | depreciated | ABSTRAÇÃO DE MÉTODOS PARA CRIAÇÃO DE CRUDs     |
-| gerador-de-parcela | WELCOME     | MÉTODO PARA GERAR PARCELAS                     |
-| httpRequestAxio    | DEV         | ABSTRAÇÃO DE REQUISIÇÕES COM AXIO              |
-| listOrdering       | WELCOME     | ORDENADOR DE LISTA                             |
-| StarCSS            | depreciated | FRAMEWORK CSS BASEADO EM COM ARQUITETURA ITCSS |
-| utilsJS            | DEV         | FUNÇÕES UTEIS PARA O DIA A DIA                 |
+| Butterfly-php      | <img src="https://img.shields.io/badge/status project-depreciated-red"/> | CRIADOR DE ESTRUTURA BASE PARA PROJETOS        |
+| ConnectDb-php      | <img src="https://img.shields.io/badge/status project-depreciated-red"/> | CONEXÕES COM BANCO DE DADOS SQL                |
+| Crud-php           | <img src="https://img.shields.io/badge/status project-depreciated-red"/> | ABSTRAÇÃO DE MÉTODOS PARA CRIAÇÃO DE CRUDs     |
+| gerador-de-parcela | <img src="https://img.shields.io/badge/status project-welcome-green"/> | MÉTODO PARA GERAR PARCELAS                       |
+| httpRequestAxio    | <img src="https://img.shields.io/badge/status project-dev-yello"/> | ABSTRAÇÃO DE REQUISIÇÕES COM AXIO            |
+| listOrdering       | <img src="https://img.shields.io/badge/status project-welcome-green"/> | ORDENADOR DE LISTA                               |
+| StarCSS            | <img src="https://img.shields.io/badge/status project-depreciated-red"/> | FRAMEWORK CSS BASEADO EM COM ARQUITETURA ITCSS |
+| utilsJS            | <img src="https://img.shields.io/badge/status project-dev-yello"/> | FUNÇÕES UTEIS PARA O DIA A DIA               |
 
 ### 🚀💻 Idiomas
 * Inglês básico/técnico (Escrita e leitura. Capacidade para ler e documentar aplicações).
