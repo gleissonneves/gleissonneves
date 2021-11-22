@@ -97,7 +97,7 @@ Algumas ferramentas estou/estive construindo durante minha jornada
 | gerador-de-parcela | <img src="https://img.shields.io/badge/status project-welcome-green"/> | MÉTODO PARA GERAR PARCELAS                       |
 | httpRequestAxio    | <img src="https://img.shields.io/badge/status project-dev-yello"/> | ABSTRAÇÃO DE REQUISIÇÕES COM AXIO            |
 | listOrdering       | <img src="https://img.shields.io/badge/status project-welcome-green"/> | ORDENADOR DE LISTA                               |
-| StarCSS            | <img src="https://img.shields.io/badge/status project-depreciated-red"/> | FRAMEWORK CSS BASEADO EM COM ARQUITETURA ITCSS |
+| StarCSS            | <img src="https://img.shields.io/badge/status project-depreciated-red"/> | FRAMEWORK CSS BASEADO EM ARQUITETURA ITCSS |
 | utilsJS            | <img src="https://img.shields.io/badge/status project-dev-yello"/> | FUNÇÕES UTEIS PARA O DIA A DIA               |
 
 ### 🚀💻 Idiomas
