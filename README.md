@@ -17,6 +17,12 @@
   </a>
 </span>
 
+<span>
+  <a href="https://www.instagram.com/gleisson_neves_/" rel="nofollow noreferrer">
+    <img src="https://img.shields.io/static/v1?label=me&message=Figma&color=3b1275&style=for-the-badge&logo=figma"/>
+  </a>
+</span>
+
 ### 👨🏻‍💻 Sobre mim
 
 * 20 anos;
