@@ -5,6 +5,13 @@
     <img src="https://img.shields.io/static/v1?label=me&message=Linkedin&color=0A66C2&style=for-the-badge&logo=linkedin"/>
   </a>
 </span>
+
+<span>
+  <a href="https://www.figma.com/@gleissonneves" rel="nofollow noreferrer">
+    <img src="https://img.shields.io/static/v1?label=me&message=Figma&color=3b1275&style=for-the-badge&logo=figma"/>
+  </a>
+</span>
+
 <span>
   <a href="https://www.behance.net/gleissonneves" rel="nofollow noreferrer">
     <img src="https://img.shields.io/static/v1?label=me&message=Behance&color=1769FF&style=for-the-badge&logo=behance"/>
@@ -12,16 +19,11 @@
 </span>
 
 <span>
-  <a href="https://www.instagram.com/gleisson_neves_/" rel="nofollow noreferrer">
+  <a href="https://www.instagram.com/gleissonneves_/" rel="nofollow noreferrer">
     <img src="https://img.shields.io/static/v1?label=me&message=Instagram&color=E4405F&style=for-the-badge&logo=instagram"/>
   </a>
 </span>
 
-<span>
-  <a href="https://www.instagram.com/gleisson_neves_/" rel="nofollow noreferrer">
-    <img src="https://img.shields.io/static/v1?label=me&message=Figma&color=3b1275&style=for-the-badge&logo=figma"/>
-  </a>
-</span>
 
 ### 👨🏻‍💻 Sobre mim
 
