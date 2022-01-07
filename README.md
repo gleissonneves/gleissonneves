@@ -36,7 +36,7 @@
 * Sou um profissional que busca conhecimentos além da minha raiz, dessa forma consigo me estender e endenter melhor outros pontos de vista;
 * Comecei a programar em 2016/2017.
 
-[Veja mais sobre mim no meu Portifólio 💡:blue_heart:](https://gleissonneves.github.io/gleissonneves/)
+<!--[Veja mais sobre mim no meu Portifólio 💡:blue_heart:](https://gleissonneves.github.io/gleissonneves/)-->
 
 ### 💡🖥️ Interesses e Atuações
 
