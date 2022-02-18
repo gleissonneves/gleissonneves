@@ -24,6 +24,12 @@
   </a>
 </span>
 
+<span>
+  <a href="https://www.99freelas.com.br/user/gleissonneves" rel="nofollow noreferrer">
+    <img src="https://img.shields.io/static/v1?label=me&message=99freelas&color=01A0DD&style=for-the-badge&logo="/>
+  </a>
+</span>
+
 
 ### 👨🏻‍💻 Sobre mim
 
