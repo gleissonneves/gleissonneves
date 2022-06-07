@@ -1,0 +1,9 @@
+:root {
+    --padding-2: 2rem;
+
+    --linear-gradient-brand: linear-gradient(to left, #008ef8, #007eff, #316aff, #5b51fe, #8025f4);
+
+    --light-thema: #efefef;
+
+    --primary-color: #008ef8;
+}
