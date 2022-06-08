@@ -33,7 +33,7 @@ export default {};
 
     a {
         font-weight: 500;
-        color: #262626;
+        color: var(--black-contrast-color);
 
         &.router-link-active {
             font-weight: 700;

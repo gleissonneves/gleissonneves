@@ -23,3 +23,8 @@ body {
 p, span, a {
   font-family: 'Nunito', sans-serif;
 }
+
+h1 {
+  font-size: 2.3rem;
+  line-height: 1.33;
+}
