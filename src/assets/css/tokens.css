@@ -1,11 +1,15 @@
 :root {
     --padding-2: 2rem;
+    --stack-2: 2rem;
 
     --linear-gradient-brand: linear-gradient(to left, #008ef8, #007eff, #316aff, #5b51fe, #8025f4);
 
     --light-thema: #efefef;
 
     --primary-color: #008ef8;
+    --secundary-color: #8025f4;
     --black-contrast-color: #222324;
     --white-contrast-color: #F2F2F2;
+
+    --border-radius: .375rem;
 }
