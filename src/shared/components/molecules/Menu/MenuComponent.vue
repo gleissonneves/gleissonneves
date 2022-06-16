@@ -60,7 +60,7 @@ export default {
     margin-bottom: .5rem;
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 700px) {
     .menu-content-item {
       margin-bottom: 0;
     }
@@ -81,7 +81,7 @@ export default {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   #menu-content {
     display: block;
     position: inherit;
@@ -101,7 +101,7 @@ export default {
       margin-bottom: .5rem;
     }
 
-    @media (min-width: 900px) {
+    @media (min-width: 700px) {
       .menu-content-item {
         margin-bottom: 0;
       }
@@ -145,7 +145,7 @@ export default {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   #menu-button-toggle {
     display: none;
   }
