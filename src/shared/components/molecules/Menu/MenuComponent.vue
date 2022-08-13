@@ -4,10 +4,10 @@
       <router-link to="/" replace>Home</router-link>
     </li>
     <li class="menu-content-item">
-      <router-link to="/about" replace>Sobre</router-link>
+      <router-link to="/about" replace>Sobre Mim</router-link>
     </li>
     <li class="menu-content-item">
-      <router-link to="/criando-um-projeto" replace>Criando um projeto</router-link>
+      <router-link to="/criando-um-projeto" replace>Criando um Projeto</router-link>
     </li>
   </ul>
 

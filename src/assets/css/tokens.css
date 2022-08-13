@@ -8,8 +8,10 @@
 
     --primary-color: #008ef8;
     --secundary-color: #8025f4;
-    --black-contrast-color: #222324;
+    --black-contrast-color: #292f36;
     --white-contrast-color: #F2F2F2;
+
+    --green-color-primary: #757575;
 
     --border-radius: .375rem;
 }
