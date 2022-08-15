@@ -25,16 +25,14 @@
           <h1>Projetos</h1>
         </div>
         <div class="home-content-project-content-pesquisa">
-          <label  for="home-content-project-pesquisa">
-            <input
-              type="text" name="pesquisa" id="home-content-project-pesquisa"
-              placeholder="Pesquisar título do projeto"
-            >
+          <label for="home-content-project-pesquisa">
+            <input type="text" name="pesquisa" id="home-content-project-pesquisa"
+              placeholder="Pesquisar título do projeto">
             <i id="input-for-search" class="fa-solid fa-magnifying-glass"></i>
           </label>
           <button class="home-content-project-filter">
             <i id="btn-icon" class="fa-solid fa-gear"></i>
-            Filtros
+            Filtrar
           </button>
         </div>
       </div>
@@ -42,21 +40,27 @@
     <!--  -->
 
     <section id="home-content-cards">
-      <card-component
-        title="Teste"
-        :badge="badge"
+      <tab-component
+        :tabList="tabList"
       />
+
+      <!-- <card-component
+          title="Teste"
+          :badge="badge"
+        /> -->
     </section>
   </div>
 </template>
 
 <script>
-import CardComponent from '@/shared/components/molecules/Card/CardComponent.vue';
+import TabComponent from '@/shared/components/atoms/Tab/TabComponent.vue';
+// import CardComponent from '@/shared/components/molecules/Card/CardComponent.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    CardComponent,
+    // CardComponent,
+    TabComponent,
   },
   data() {
     return {
@@ -65,13 +69,17 @@ export default {
         link: 'https://globaltecnologia.net/',
       },
       badge: ['front-end', 'UI'],
+      tabList: [
+        { id: 1, label: 'Teste 1', router: '/' },
+        { id: 2, label: 'Teste 2', router: '/' },
+        { id: 3, label: 'Teste 3', router: '/' },
+      ],
     };
   },
 };
 </script>
 
 <style lang="scss">
-
 #home-content-title {
   padding-top: 1.25rem;
 }
@@ -79,6 +87,7 @@ export default {
 .home-title {
   color: var(--black-contrast-color);
 }
+
 .home-subtitle-sm {
   font-weight: 600;
   font-size: 1.2rem;
@@ -104,6 +113,7 @@ export default {
     flex-direction: column;
 
   }
+
   @media (min-width: 768px) {
     .home-content-project-content {
       display: flex;
@@ -113,6 +123,7 @@ export default {
   }
 
   .home-content-project-content-title {}
+
   .home-content-project-content-pesquisa {
     margin-top: .5rem;
     display: flex;
@@ -157,7 +168,7 @@ export default {
     .home-content-project-filter {
       cursor: pointer;
       border: none;
-      background: var(--linear-gradient-brand);
+      background-color: var(--primary-color);
       color: var(--white-contrast-color);
       border-radius: 0.375rem;
       padding: 0.75rem;
@@ -174,9 +185,10 @@ export default {
       }
     }
   }
+
   @media (min-width: 768px) {
     .home-content-project-content-pesquisa {
-       min-width: 55%;
+      min-width: 55%;
       justify-content: flex-end;
 
       label[for="home-content-project-pesquisa"] {
@@ -187,6 +199,6 @@ export default {
 }
 
 #home-content-cards {
-  margin-top: 16px;
+  margin-top: 32px;
 }
 </style>
