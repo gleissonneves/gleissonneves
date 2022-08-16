@@ -153,7 +153,7 @@ export default {
     min-width: 100%;
 
     label[for="home-content-project-pesquisa"] {
-      min-width: calc(300px - 100px);
+      min-width: calc(300px - 110px);
       width: 100%;
       position: relative;
 
