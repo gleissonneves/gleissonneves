@@ -46,25 +46,111 @@
         @activedTabById="declareListeningTabId($event)"
       />
 
-      <div id="container-tab">
-        <div v-if="tabIdActived === 1">
-          <card-component
-            title="Teste"
-            :badge="badge"
-          />
-        </div>
-        <div v-if="tabIdActived === 2">
-          b
-        </div>
-        <div v-if="tabIdActived === 3">
-          c
-        </div>
+      <div id="gruop-container-tab">
+        <TransitionGroup tag="div" name="tab" mode="out-in">
+          <div class="tab-content-card" v-if="tabIdActived === 1">
+            <card-component
+              title="Teste"
+              :badge="badge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="badge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="badge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="badge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="badge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="badge"
+            />
+          </div>
+
+          <div class="tab-content-card" v-else-if="tabIdActived === 2">
+            <card-component
+              title="Teste"
+              :badge="UIbadge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="UIbadge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="UIbadge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="UIbadge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="UIbadge"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="badge"
+            />
+          </div>
+
+          <div class="tab-content-card" v-else>
+            <card-component
+              title="Teste"
+              :badge="Badgewordpress"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="Badgewordpress"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="Badgewordpress"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="Badgewordpress"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="Badgewordpress"
+            />
+
+            <card-component
+              title="Teste"
+              :badge="badge"
+            />
+          </div>
+        </TransitionGroup>
       </div>
     </section>
   </div>
 </template>
 
 <script>
+import { TransitionGroup } from 'vue';
 import projects from '@/shared/data/projects';
 import TabComponent from '@/shared/components/atoms/Tab/TabComponent.vue';
 import CardComponent from '@/shared/components/molecules/Card/CardComponent.vue';
@@ -74,6 +160,7 @@ export default {
   components: {
     CardComponent,
     TabComponent,
+    TransitionGroup,
   },
   data() {
     return {
@@ -82,7 +169,9 @@ export default {
         nome: 'Global Tecnologia',
         link: 'https://globaltecnologia.net/',
       },
-      badge: ['front-end', 'UI'],
+      badge: ['front-end', 'Vue'],
+      Badgewordpress: ['elementor', 'SEO'],
+      UIbadge: ['figma', 'UI'],
       tabList: Array,
     };
   },
@@ -217,10 +306,41 @@ export default {
       }
     }
   }
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
 }
 
-#container-tab,
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+}
+
+#gruop-container-tab,
 #home-content-cards {
   margin-top: 32px;
+}
+
+.tab-content-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+// transition vue
+.tab-enter-active {
+  transition: all .7s;
+}
+
+.tab-leave-active {
+  transition: all .7s ease;
+}
+
+.tab-enter-from,
+.tab-leave-to {
+  opacity: 0;
+  transform: translateY(-5px);
 }
 </style>

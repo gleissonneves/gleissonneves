@@ -55,7 +55,7 @@ export default {
 
   ul {
     display: flex;
-    border-bottom: 1px solid var(--green-color-primary);
+    border-bottom: 1px solid var(--green-color-secundary);
     width: 100%;
     padding-bottom: 16px;
 
