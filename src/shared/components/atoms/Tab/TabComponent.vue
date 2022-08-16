@@ -29,7 +29,7 @@ export default {
   },
 
   created() {
-    this.activedTab = this.tabList[0].id;
+    this.setActivedTab(this.tabList[0].id);
   },
 
   methods: {
@@ -38,7 +38,12 @@ export default {
     },
 
     setActivedTab(id) {
+      this.emitActivedTabById(id);
       this.activedTab = id;
+    },
+
+    emitActivedTabById(id) {
+      this.$emit('activedTabById', id);
     },
   },
 };
@@ -55,6 +60,7 @@ export default {
     padding-bottom: 16px;
 
     li {
+      user-select: none;
       color: var(--black-contrast-color);
       cursor: pointer;
       position: relative;
@@ -62,6 +68,9 @@ export default {
       font-size: 14px;
       padding-left: 4px;
       padding-right: 4px;
+      display: flex;
+      justify-content: center;
+      min-width: 82px;
 
       &:nth-child(1n+1) {
         margin-right: 24px;

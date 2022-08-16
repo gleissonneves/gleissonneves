@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/valid-v-on -->
 <template>
   <div class="home">
     <!--  -->
@@ -42,39 +43,59 @@
     <section id="home-content-cards">
       <tab-component
         :tabList="tabList"
+        @activedTabById="declareListeningTabId($event)"
       />
 
-      <!-- <card-component
-          title="Teste"
-          :badge="badge"
-        /> -->
+      <div id="container-tab">
+        <div v-if="tabIdActived === 1">
+          <card-component
+            title="Teste"
+            :badge="badge"
+          />
+        </div>
+        <div v-if="tabIdActived === 2">
+          b
+        </div>
+        <div v-if="tabIdActived === 3">
+          c
+        </div>
+      </div>
     </section>
   </div>
 </template>
 
 <script>
+import projects from '@/shared/data/projects';
 import TabComponent from '@/shared/components/atoms/Tab/TabComponent.vue';
-// import CardComponent from '@/shared/components/molecules/Card/CardComponent.vue';
+import CardComponent from '@/shared/components/molecules/Card/CardComponent.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    // CardComponent,
+    CardComponent,
     TabComponent,
   },
   data() {
     return {
+      tabIdActived: [String, Number],
       empresa: {
         nome: 'Global Tecnologia',
         link: 'https://globaltecnologia.net/',
       },
       badge: ['front-end', 'UI'],
-      tabList: [
-        { id: 1, label: 'Teste 1', router: '/' },
-        { id: 2, label: 'Teste 2', router: '/' },
-        { id: 3, label: 'Teste 3', router: '/' },
-      ],
+      tabList: Array,
     };
+  },
+
+  created() {
+    console.log(projects.data);
+    this.tabList = projects.data;
+  },
+
+  methods: {
+    declareListeningTabId(tabIdActived) {
+      this.tabIdActived = tabIdActived;
+    },
   },
 };
 </script>
@@ -198,6 +219,7 @@ export default {
   }
 }
 
+#container-tab,
 #home-content-cards {
   margin-top: 32px;
 }
