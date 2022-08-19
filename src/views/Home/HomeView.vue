@@ -49,67 +49,71 @@
       <div id="gruop-container-tab">
         <TransitionGroup tag="div" name="tab" mode="out-in">
           <div class="tab-content-card" v-if="tabIdActived === 1">
-            <card-component
-              title="Teste"
-              :badge="badge"
-            />
+            <div class="tab-content-card-body">
+              <card-component
+                title="Teste"
+                :badge="badge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="badge"
-            />
+              <card-component
+                title="Teste"
+                :badge="badge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="badge"
-            />
+              <card-component
+                title="Teste"
+                :badge="badge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="badge"
-            />
+              <card-component
+                title="Teste"
+                :badge="badge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="badge"
-            />
+              <card-component
+                title="Teste"
+                :badge="badge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="badge"
-            />
+              <card-component
+                title="Teste"
+                :badge="badge"
+              />
+            </div>
           </div>
 
           <div class="tab-content-card" v-else-if="tabIdActived === 2">
-            <card-component
-              title="Teste"
-              :badge="UIbadge"
-            />
+            <div class="tab-content-card-body">
+              <card-component
+                title="Teste"
+                :badge="UIbadge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="UIbadge"
-            />
+              <card-component
+                title="Teste"
+                :badge="UIbadge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="UIbadge"
-            />
+              <card-component
+                title="Teste"
+                :badge="UIbadge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="UIbadge"
-            />
+              <card-component
+                title="Teste"
+                :badge="UIbadge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="UIbadge"
-            />
+              <card-component
+                title="Teste"
+                :badge="UIbadge"
+              />
 
-            <card-component
-              title="Teste"
-              :badge="badge"
-            />
+              <card-component
+                title="Teste"
+                :badge="UIbadge"
+              />
+            </div>
           </div>
 
           <div class="tab-content-card" v-else>
@@ -323,10 +327,24 @@ export default {
   margin-top: 32px;
 }
 
-.tab-content-card {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+#gruop-container-tab {
+ .tab-content-card {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  @media (min-width: 570px) {
+    .tab-content-card {
+       grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .tab-content-card {
+       grid-template-columns: repeat(3, 1fr);
+    }
+  }
 }
 
 // transition vue
