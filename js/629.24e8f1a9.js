@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkgleissonneves"]=self["webpackChunkgleissonneves"]||[]).push([[629],{629:function(e,n,o){o.r(n),o.d(n,{default:function(){return d}});var r=o(3396);const s={class:"about"},u=(0,r._)("h1",null,"Criando um projeto",-1),a=(0,r._)("p",null," Oi estou sendo desenvolvido, até breve o meu humano irá me por para funcionar ",-1),t=[u,a];function i(e,n){return(0,r.wg)(),(0,r.iD)("div",s,t)}var l=o(89);const c={},v=(0,l.Z)(c,[["render",i]]);var d=v}}]);
-//# sourceMappingURL=629.24e8f1a9.js.map
