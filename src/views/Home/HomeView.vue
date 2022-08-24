@@ -3,17 +3,14 @@
   <div class="home">
     <!--  -->
     <section id="home-content-title">
-      <span class="home-subtitle-sm text-gradient">
-        Bem-vindo, Humano!
-      </span>
-      <h1 class="home-title">
-        Eu sou Gleisson Neves
-      </h1>
+      <span class="home-subtitle-sm text-gradient"> Bem-vindo, Humano! </span>
+      <h1 class="home-title">Eu sou Gleisson Neves</h1>
       <p class="home-subtitle-md">
         Desenvolvedor Front-end na
         <a :href="empresa.link" target="_blank" rel="noopener noreferrer" class="text-gradient">
           {{ empresa.nome }}
-        </a> <br>
+        </a>
+        <br />
         & Freelancer com expertises em UI e Back-end.
       </p>
     </section>
@@ -27,8 +24,12 @@
         </div>
         <div class="home-content-project-content-pesquisa">
           <label for="home-content-project-pesquisa">
-            <input type="text" name="pesquisa" id="home-content-project-pesquisa"
-              placeholder="Pesquisar título do projeto">
+            <input
+              type="text"
+              name="pesquisa"
+              id="home-content-project-pesquisa"
+              placeholder="Pesquisar título do projeto"
+            />
             <i id="input-for-search" class="fa-solid fa-magnifying-glass"></i>
           </label>
           <button class="home-content-project-filter">
@@ -41,113 +42,59 @@
     <!--  -->
 
     <section id="home-content-cards">
-      <tab-component
-        :tabList="tabList"
-        @activedTabById="declareListeningTabId($event)"
-      />
+      <tab-component :tabList="tabList" @activedTabById="declareListeningTabId($event)" />
 
-      <div id="gruop-container-tab">
+      <div id="group-container-tab">
         <TransitionGroup tag="div" name="tab" mode="out-in">
           <div class="tab-content-card" v-if="tabIdActived === 1">
-            <div class="tab-content-card-body">
-              <card-component
-                title="Teste"
-                :badge="badge"
-              />
+            <card-component title="Teste" :badge="badge" />
 
-              <card-component
-                title="Teste"
-                :badge="badge"
-              />
+            <card-component title="Teste" :badge="badge" />
 
-              <card-component
-                title="Teste"
-                :badge="badge"
-              />
+            <card-component title="Teste" :badge="badge" />
 
-              <card-component
-                title="Teste"
-                :badge="badge"
-              />
+            <card-component title="Teste" :badge="badge" />
 
-              <card-component
-                title="Teste"
-                :badge="badge"
-              />
+            <card-component title="Teste" :badge="badge" />
 
-              <card-component
-                title="Teste"
-                :badge="badge"
-              />
-            </div>
+            <card-component title="Teste" :badge="badge" />
           </div>
 
           <div class="tab-content-card" v-else-if="tabIdActived === 2">
-            <div class="tab-content-card-body">
-              <card-component
-                title="Teste"
-                :badge="UIbadge"
-              />
+            <card-component title="Teste" :badge="UIbadge" />
 
-              <card-component
-                title="Teste"
-                :badge="UIbadge"
-              />
+            <card-component title="Teste" :badge="UIbadge" />
 
-              <card-component
-                title="Teste"
-                :badge="UIbadge"
-              />
+            <card-component title="Teste" :badge="UIbadge" />
 
-              <card-component
-                title="Teste"
-                :badge="UIbadge"
-              />
+            <card-component title="Teste" :badge="UIbadge" />
 
-              <card-component
-                title="Teste"
-                :badge="UIbadge"
-              />
+            <card-component title="Teste" :badge="UIbadge" />
 
-              <card-component
-                title="Teste"
-                :badge="UIbadge"
-              />
-            </div>
+            <card-component title="Teste" :badge="UIbadge" />
           </div>
 
           <div class="tab-content-card" v-else>
-            <card-component
-              title="Teste"
-              :badge="Badgewordpress"
-            />
+            <card-component title="Teste" :badge="Badgewordpress" />
 
-            <card-component
-              title="Teste"
-              :badge="Badgewordpress"
-            />
+            <card-component title="Teste" :badge="Badgewordpress" />
 
-            <card-component
-              title="Teste"
-              :badge="Badgewordpress"
-            />
+            <card-component title="Teste" :badge="Badgewordpress" />
 
-            <card-component
-              title="Teste"
-              :badge="Badgewordpress"
-            />
+            <card-component title="Teste" :badge="Badgewordpress" />
 
-            <card-component
-              title="Teste"
-              :badge="Badgewordpress"
-            />
+            <card-component title="Teste" :badge="Badgewordpress" />
 
-            <card-component
-              title="Teste"
-              :badge="badge"
-            />
+            <card-component title="Teste" :badge="badge" />
           </div>
         </TransitionGroup>
+      </div>
+
+      <div id="group-container-tab-footer">
+        <button id="ver-mais">
+          Ver mais
+          <i class="fa-solid fa-angle-down icon"></i>
+        </button>
       </div>
     </section>
   </div>
@@ -225,7 +172,6 @@ export default {
   .home-content-project-content {
     display: flex;
     flex-direction: column;
-
   }
 
   @media (min-width: 768px) {
@@ -236,10 +182,11 @@ export default {
     }
   }
 
-  .home-content-project-content-title {}
+  .home-content-project-content-title {
+  }
 
   .home-content-project-content-pesquisa {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: row;
     justify-content: stretch;
@@ -253,8 +200,8 @@ export default {
       #input-for-search {
         font-size: 14px;
         position: absolute;
-        left: .75rem;
-        top: .85rem;
+        left: 0.75rem;
+        top: 0.85rem;
         color: var(--green-color-primary);
       }
     }
@@ -295,7 +242,7 @@ export default {
 
       #btn-icon {
         font-size: 14px;
-        margin-right: .25rem;
+        margin-right: 0.25rem;
       }
     }
   }
@@ -311,49 +258,74 @@ export default {
     }
   }
 
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.5s ease;
+  .v-enter-active,
+  .v-leave-active {
+    transition: opacity 0.5s ease;
+  }
+
+  .v-enter-from,
+  .v-leave-to {
+    opacity: 0;
+  }
 }
 
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
-}
-}
-
-#gruop-container-tab,
+#group-container-tab,
 #home-content-cards {
   margin-top: 32px;
 }
 
-#gruop-container-tab {
- .tab-content-card {
-    display: grid;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-
-  @media (min-width: 570px) {
+#home-content-cards {
+  #group-container-tab {
     .tab-content-card {
-       grid-template-columns: repeat(2, 1fr);
+      display: grid;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    @media (min-width: 570px) {
+      .tab-content-card {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 768px) {
+      .tab-content-card {
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
   }
 
-  @media (min-width: 768px) {
-    .tab-content-card {
-       grid-template-columns: repeat(3, 1fr);
+  #group-container-tab-footer {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+
+    #ver-mais {
+      color: var(--primary-color);
+      border: none;
+      font-weight: 800;
+      font-family: 'Nunito';
+      cursor: pointer;
+
+      &:hover {
+        color: var(--primary-color);
+        opacity: .8;
+      }
+
+      .icon {
+        margin-left: 4px;
+      }
     }
   }
 }
 
 // transition vue
 .tab-enter-active {
-  transition: all .7s;
+  transition: all 0.7s;
 }
 
 .tab-leave-active {
-  transition: all .7s ease;
+  transition: all 0.7s ease;
 }
 
 .tab-enter-from,

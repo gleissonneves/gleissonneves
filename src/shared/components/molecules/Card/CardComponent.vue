@@ -1,14 +1,13 @@
 <template>
   <main class="card">
-    <section class="card-img">
-      asd
-    </section>
+    <section class="card-img"></section>
     <section class="card-body">
       <section>
+        <badge-component v-for="(badgeTitle, index) in badge" :key="index" :title="badgeTitle"/>
+
         <h1 class="card-title">
         {{ title }}
         </h1>
-        <badge-component v-for="(badgeTitle, index) in badge" :key="index" :title="badgeTitle"/>
       </section>
 
       <section class="card-describle">
@@ -51,19 +50,29 @@ export default {
 
 <style lang="scss">
 .card {
+  position: relative;
+  background-clip: border-box;
   border: 1px solid var(--green-color-primary);
   border-radius: var(--border-radius);
+  padding: .75rem;
+
+  .card-img {
+    border-radius: var(--border-radius);
+    width: 100%;
+    min-height: 115px;
+    margin-bottom: .25rem;
+    background-color: #c244fc;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
   .card-body {
-    padding: .75rem;
-
     .card-title {
       font-size: 24px;
       font-family: 'Nunito';
     }
 
     .card-describle {
-      margin-top: .5rem;
       font-size: 14px;
     }
   }
