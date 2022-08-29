@@ -97,6 +97,9 @@
         </button>
       </div>
     </section>
+
+    <footer>
+    </footer>
   </div>
 </template>
 
@@ -296,14 +299,18 @@ export default {
   }
 
   #group-container-tab-footer {
-    margin-top: 16px;
+    margin-top: 24px;
     display: flex;
     justify-content: center;
 
     #ver-mais {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       color: var(--primary-color);
       border: none;
       font-weight: 800;
+      font-size: 14px;
       font-family: 'Nunito';
       cursor: pointer;
 
@@ -312,9 +319,10 @@ export default {
         opacity: .8;
       }
 
-      .icon {
-        margin-left: 4px;
+      &:active {
+        color: #006ABB;
       }
+
     }
   }
 }

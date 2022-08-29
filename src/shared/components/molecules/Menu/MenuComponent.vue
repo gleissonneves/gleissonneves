@@ -7,7 +7,7 @@
       <router-link to="/about" replace>Sobre Mim</router-link>
     </li>
     <li class="menu-content-item">
-      <router-link to="/criando-um-projeto" replace>Criando um Projeto</router-link>
+      <a href="https://medium.com/@gleissonneves" target="_blank">Blog</a>
     </li>
   </ul>
 

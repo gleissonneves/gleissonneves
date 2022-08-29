@@ -6,6 +6,11 @@ const routes = [
     name: 'home',
     component: () => import('../views/Home/HomeView.vue'),
   },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'notFound',
+    component: () => import('../views/Error/NotFound.vue'),
+  },
 ];
 
 const router = createRouter({
