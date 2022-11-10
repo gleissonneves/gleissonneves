@@ -3,18 +3,24 @@
     <section id="info">
       <div class="info-container">
         <div id="info-photo">
-          <img src="@/assets/img/eu.png" alt="eu" >
+          <img src="@/assets/img/eu.png" alt="eu" />
         </div>
       </div>
       <div class="info-container info-container-details">
-        <h1>Sobre minha vida</h1>
+        <h1 class="h1">Ei, Olá pessoa 👋 </h1>
+
+        <p class="p">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo totam enim architecto sunt
+          consequuntur corrupti ipsum cum libero! Vitae voluptas asperiores itaque eaque
+          exercitationem sequi, rem maiores blanditiis expedita! Dolorem?
+        </p>
       </div>
     </section>
   </main>
 </template>
 
 <script>
-import data from '@/shared/util/lang/data';
+// import data from '@/shared/util/lang/data';
 
 export default {
   name: 'SobreView',
@@ -26,7 +32,7 @@ export default {
   },
 
   created() {
-    this.langApp = data.lang.filter((item) => item.id === this.langIdInPage);
+    // this.langApp = data.lang.filter((item) => item.id === this.langIdInPage);
   },
 };
 </script>
@@ -48,8 +54,7 @@ export default {
       display: flex;
       justify-content: center;
 
-      box-shadow: -20px 20px 83px #aaaaaa,
-             20px -20px 83px #ffffff;
+      box-shadow: -20px 20px 83px #aaaaaa, 20px -20px 83px #ffffff;
 
       img {
         position: absolute;
@@ -61,6 +66,11 @@ export default {
     .info-container-details {
       padding-top: 24px;
     }
+
+    .p {
+      font-size: 18px;
+      margin-top: 34px;
+    }
   }
 
   @media (min-width: 790px) {
@@ -69,6 +79,11 @@ export default {
 
       #info-photo {
         max-width: 400px;
+      }
+
+      .h1,
+      .p {
+        margin-left: 64px;
       }
     }
   }
