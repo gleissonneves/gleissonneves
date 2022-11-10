@@ -16,7 +16,7 @@ export default {
     },
     {
       id: 3,
-      label: 'WordPress',
+      label: 'Outros',
       projects: [
         {},
       ],

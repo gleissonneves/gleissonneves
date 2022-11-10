@@ -22,7 +22,7 @@
         <div class="home-content-project-content-title">
           <h1>Projetos</h1>
         </div>
-        <div class="home-content-project-content-pesquisa">
+        <!-- <div class="home-content-project-content-pesquisa">
           <label for="home-content-project-pesquisa">
             <input
               type="text"
@@ -36,7 +36,7 @@
             <i id="btn-icon" class="fa-solid fa-gear"></i>
             Filtrar
           </button>
-        </div>
+        </div> -->
       </div>
     </section>
     <!--  -->

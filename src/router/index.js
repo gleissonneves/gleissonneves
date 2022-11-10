@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../views/Home/HomeView.vue'),
   },
   {
+    path: '/sobre-mim',
+    name: 'sobreMim',
+    component: () => import('../views/Sobre/SobreView.vue'),
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'notFound',
     component: () => import('../views/Error/NotFound.vue'),

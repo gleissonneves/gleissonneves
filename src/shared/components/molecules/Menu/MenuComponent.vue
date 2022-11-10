@@ -4,7 +4,7 @@
       <router-link to="/" replace>Home</router-link>
     </li>
     <li class="menu-content-item">
-      <router-link to="/about" replace>Sobre Mim</router-link>
+      <router-link to="/sobre-mim" replace>Sobre Mim</router-link>
     </li>
     <li class="menu-content-item">
       <a href="https://medium.com/@gleissonneves" target="_blank">Blog</a>
