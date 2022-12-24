@@ -32,8 +32,10 @@
 
 
 ### 👨🏻‍💻 Sobre mim
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-* 20 anos;
+* Nasci em 2001;
+* Gosto e tento contribuir para software opensource;
 * Pedreiro de Software;
 * Atuo como Front-end;
 * Tenho uma quedinha de 10 andares UX/UI;
